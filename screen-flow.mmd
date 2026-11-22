@@ -1,0 +1,103 @@
+flowchart TD
+  %% DefySwarm Cloud Storage Security Console — Screen Flow & Information Architecture
+
+  Entry([Console Entry]) --> Sync[Control Plane Sync\nGET /api/state + WS /ws/live]
+  Sync --> Overview
+
+  %% Global Shell & Utility Overlays
+  subgraph Shell [Persistent Console Shell]
+    direction TB
+    Sidebar[Left Sidebar — 5 Domains\nOverview · Storage · Threat Ops · Validation · Settings]
+    Topbar[Top Bar — 48px\nBreadcrumb · Bucket Context · Role Switcher]
+    CmdK[Quick Search / Command Palette ⌘K]
+    ConnectAI[Connect AI Button\nShown only when AI key not configured]
+  end
+
+  subgraph Modals [Shared Overlays & Drawers]
+    direction TB
+    Onboarding[OnboardingModal\nInitial AI Analysis & Posture Setup]
+    Forensic[ForensicDrawer\nEvent Payload, Entropy & AI Triage]
+    RestoreModal[1-Click Vault Restore Modal\nClean WORM Snapshot Preview & Apply]
+    ConfirmModal[ConfirmSheet\nDestructive Action Guard]
+  end
+
+  ConnectAI -->|Opens| Onboarding
+  CmdK -.->|Jump to Workspace / Sub-tab| Sidebar
+  CmdK -.->|Trigger Attack Drill| Telemetry
+  CmdK -.->|Inspect Recent Incident| Incidents
+
+  %% 1. Overview Workspace
+  subgraph W1 [1. Overview Workspace]
+    direction TB
+    Overview[OverviewView\nTopology Diagram · Live Metrics · Recent Activity]
+    OverviewActions[Contextual Header Actions\nAuto-Harden · Edit Policy]
+  end
+
+  %% 2. Storage Workspace
+  subgraph W2 [2. Storage Workspace]
+    direction TB
+    LiveFiles[Sub-tab: Live Files\nLiveStorageView — Upload, Browse, Download, Delete]
+    CanariesVault[Sub-tab: Canaries & Vault\nCanariesVaultView — Honeypot Files & WORM Snapshots]
+    LiveFiles <-->|Workspace Sub-tab| CanariesVault
+  end
+
+  %% 3. Threat Ops Workspace
+  subgraph W3 [3. Threat Ops Workspace]
+    direction TB
+    Telemetry[Sub-tab: Live Telemetry\nWarRoomView — Real-Time Event Stream & Signal Matrix]
+    Incidents[Sub-tab: Incidents\nIncidentsView — Contained Threats & Recovery Queue]
+    Telemetry <-->|Workspace Sub-tab| Incidents
+  end
+
+  %% 4. Validation Workspace
+  subgraph W4 [4. Validation Workspace]
+    direction TB
+    Simulator[Sub-tab: Simulator\nSimulatorView — Controlled Attack Drills & Validation]
+    Analytics[Sub-tab: Analytics\nAnalyticsView — Detection KPIs, Latency & Trends]
+    Simulator <-->|Workspace Sub-tab| Analytics
+  end
+
+  %% 5. Settings Workspace
+  subgraph W5 [5. Settings Workspace]
+    direction TB
+    Config[Sub-tab: Configuration\nSetupView — Policy YAML, S3 Connectors, AI & Alerts]
+    HealthAudit[Sub-tab: Health & Audit\nHealthView — System Health, Quotas & Audit Trail]
+    Config <-->|Workspace Sub-tab| HealthAudit
+  end
+
+  %% Primary Domain Navigation (Single Source of Truth)
+  Sidebar -->|Overview| Overview
+  Sidebar -->|Storage| LiveFiles
+  Sidebar -->|Threat Ops + Open Badge| Telemetry
+  Sidebar -->|Validation| Simulator
+  Sidebar -->|Settings| Config
+
+  %% Contextual Cross-Screen Journeys
+  Overview -->|Edit Policy| Config
+  Overview -->|Buckets / Upload / Live Files| LiveFiles
+  Overview -->|Canaries / Vault Binding| CanariesVault
+  Overview -->|AI / Alerts / Webhook Config| Config
+  Overview -->|View Analytics| Analytics
+  Overview -->|Open Live Telemetry| Telemetry
+  Overview -->|View Incidents / Select Incident| Incidents
+  Overview -->|Run Validation Drill| Simulator
+
+  LiveFiles -->|Configure Storage Connector| Config
+  CanariesVault -->|Configure AI / Vault Policy| Config
+
+  Telemetry -->|Inspect Event| Forensic
+  Telemetry -->|View Contained Incidents| Incidents
+  Telemetry -->|Launch Drill| Simulator
+
+  Forensic -->|Open Incident Queue| Incidents
+  Forensic -->|Inspect Vault Snapshots| CanariesVault
+
+  Incidents -->|Restore Clean Snapshot| RestoreModal
+  Incidents -->|Re-run Validation Drill| Simulator
+  Incidents -->|Revoke / Confirm Action| ConfirmModal
+
+  Simulator -->|Monitor Live Response| Telemetry
+  Simulator -->|Review Triggered Incidents| Incidents
+
+  Onboarding -->|Complete Setup| Overview
+  Onboarding -->|Configure Storage| Config

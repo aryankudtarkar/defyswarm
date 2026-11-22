@@ -1,0 +1,127 @@
+{
+  "incidents": [],
+  "benchmarks": [],
+  "classifierAudits": [],
+  "auditLog": [
+    {
+      "id": "aud-1795287342709-4337",
+      "timestamp": "2026-11-21T18:55:42.709Z",
+      "role": "admin",
+      "action": "demo.reset",
+      "target": "all-buckets",
+      "outcome": "success",
+      "detail": "Reset object store, WORM vault, credentials, incidents, and policies to clean baseline."
+    },
+    {
+      "id": "aud-1795287342597-c1b3",
+      "timestamp": "2026-11-21T18:55:42.597Z",
+      "role": "admin",
+      "action": "principal.revoke",
+      "target": "svc-billing-etl",
+      "outcome": "success",
+      "detail": "Manually set principal svc-billing-etl status to REVOKED."
+    },
+    {
+      "id": "aud-1795287342233-84d4",
+      "timestamp": "2026-11-21T18:55:42.233Z",
+      "role": "viewer",
+      "action": "ingest.webhook_rejected",
+      "target": "/api/ingest/s3-event",
+      "outcome": "denied",
+      "detail": "Rejected unauthenticated external S3/MinIO webhook call."
+    },
+    {
+      "id": "aud-1795271650910-36b6",
+      "timestamp": "2026-11-21T14:34:10.910Z",
+      "role": "admin",
+      "action": "principal.restore_access",
+      "target": "svc-billing-etl",
+      "outcome": "success",
+      "detail": "Manually set principal svc-billing-etl status to ACTIVE."
+    },
+    {
+      "id": "aud-1795271650892-0c77",
+      "timestamp": "2026-11-21T14:34:10.892Z",
+      "role": "admin",
+      "action": "principal.revoke",
+      "target": "svc-billing-etl",
+      "outcome": "success",
+      "detail": "Manually set principal svc-billing-etl status to REVOKED."
+    },
+    {
+      "id": "aud-1795271650847-937c",
+      "timestamp": "2026-11-21T14:34:10.848Z",
+      "role": "viewer",
+      "action": "ingest.webhook_rejected",
+      "target": "/api/ingest/s3-event",
+      "outcome": "denied",
+      "detail": "Rejected unauthenticated external S3/MinIO webhook call."
+    },
+    {
+      "id": "aud-1795262539150-be18",
+      "timestamp": "2026-11-21T12:02:19.150Z",
+      "role": "admin",
+      "action": "policy.update",
+      "target": "policies.yaml",
+      "outcome": "error",
+      "detail": "Unknown key \"unknown_rogue_key\" rejected by strict policy schema. Field \"mode\" must be either \"active\" or \"dry-run\". Field \"buckets\" must be a non-empty array. Field \"tiers\" is required. Field \"allowlist\" is required. Field \"detection\" is required. Field \"canary\" is required. Field \"hard_triggers\" must be an array. Field \"actions\" is required."
+    },
+    {
+      "id": "aud-1795262539119-8948",
+      "timestamp": "2026-11-21T12:02:19.119Z",
+      "role": "operator",
+      "action": "simulator.blocked",
+      "target": "legal-archives-prod",
+      "outcome": "denied",
+      "detail": "Blast-radius lock active: bucket \"legal-archives-prod\" lacks required tag env=ransomware-sim-only (current env=production)."
+    },
+    {
+      "id": "aud-1795262539094-7e27",
+      "timestamp": "2026-11-21T12:02:19.094Z",
+      "role": "viewer",
+      "action": "POST /api/policy/mode",
+      "target": "rbac-guard",
+      "outcome": "denied",
+      "detail": "Role \"viewer\" denied access; requires admin."
+    },
+    {
+      "id": "aud-1795262265037-a994",
+      "timestamp": "2026-11-21T11:57:45.037Z",
+      "role": "admin",
+      "action": "system.initialized",
+      "target": "control-plane",
+      "outcome": "success",
+      "detail": "Initialized DefySwarm out-of-band control plane, WORM vault, and baseline buckets."
+    }
+  ],
+  "alerts": {
+    "webhookUrl": "",
+    "slackWebhookUrl": "",
+    "discordWebhookUrl": "",
+    "ntfyTopic": "",
+    "enabled": false,
+    "lastDeliveryStatus": "idle",
+    "deliveredCount": 0
+  },
+  "storage": {
+    "activeAdapter": "local",
+    "provider": "custom-s3",
+    "minioEndpoint": "https://minio.example.com:9000",
+    "minioRegion": "us-east-1",
+    "minioUseSSL": true,
+    "forcePathStyle": true,
+    "productionBucket": "finance-prod",
+    "vaultBucket": "vault-finance",
+    "minioMonitorConfigured": false,
+    "minioVaultConfigured": false,
+    "minioConnected": false,
+    "lastConnectionMessage": "Using Built-in Real Object Store (MinIO adapter ready).",
+    "pollingEnabled": false,
+    "pollingIntervalSec": 60,
+    "lastPollDiffCount": 0,
+    "apiCallsToday": 0
+  },
+  "containmentWebhookUrl": "",
+  "containmentWebhookEnabled": false,
+  "onboardingCompleted": true
+}

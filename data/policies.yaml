@@ -1,0 +1,60 @@
+version: 1
+mode: active
+buckets:
+  - name: finance-prod
+    tags:
+      sensitivity: critical
+      env: ransomware-sim-only
+    vault: vault-finance
+  - name: analytics-sandbox
+    tags:
+      sensitivity: sandbox
+      env: ransomware-sim-only
+    vault: vault-finance
+  - name: legal-archives-prod
+    tags:
+      sensitivity: critical
+      env: production
+    vault: vault-finance
+tiers:
+  critical:
+    response: auto-revoke
+  sandbox:
+    response: alert-only
+allowlist:
+  principals:
+    - ci-deployer
+    - backup-agent
+    - dlp-scanner
+  kms_keys:
+    - arn:aws:kms:us-east-1:111122223333:key/trusted-kms-key-id
+    - trusted-kms-key-id
+detection:
+  entropy:
+    sample_bytes: 65536
+    delta_threshold: 1.5
+  burst:
+    window_seconds: 10
+    pairs: 5
+  swarm:
+    window_seconds: 60
+    min_principals: 2
+    flagged_writes: 12
+  score:
+    watchlist: 45
+    contain: 100
+canary:
+  count: 10
+  refresh_hours: 24
+hard_triggers:
+  - canary_write
+  - versioning_suspend
+  - version_purge
+  - lifecycle_expiry_1d_or_less
+  - object_lock_tamper
+actions:
+  on_p0:
+    - disable_key
+    - attach_deny_all
+    - alert
+    - pause_replication

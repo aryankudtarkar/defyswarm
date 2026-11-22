@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan for rewriting the DefySwarm README (ICP-first for Cloud Security & SRE teams, developer-second), removing all pulsating status dots in favor of a text-only live connection label, and introducing immediate app-shell rendering with Apple-style shimmer skeleton loading states across all 9 workspace views and async storage listings.",
+  "updatedAt":  "2026-11-21T22:50:52.943320370Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

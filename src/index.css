@@ -1,0 +1,307 @@
+@import "tailwindcss";
+
+:root {
+  /* Cloudflare Kumo neutral surface scale + Apple HIG label hierarchy */
+  --bg-canvas: #ffffff;
+  --bg-rail: #f8f9fa;
+  --bg-subtle: #f4f5f7;
+  --bg-track: #f2f4f7;
+  --bg-muted: #eef0f3;
+  --bg-hover: #f3f4f6;
+
+  --border-default: #e5e7eb;
+  --border-subtle: #eef0f2;
+  --border-strong: #d1d5db;
+  --border-hairline: rgba(17, 24, 39, 0.08);
+
+  --ink-primary: #111827;
+  --ink-secondary: #4b5563;
+  --ink-muted: #6b7280;
+
+  /* Cloudflare Royal Blue primary actions + restrained Orange brand spark */
+  --accent-blue: #1d6cf0;
+  --accent-blue-hover: #1558d6;
+  --accent-blue-deep: #0051c3;
+  --accent-blue-soft: #eff6ff;
+  --accent-blue-ring: rgba(29, 108, 240, 0.28);
+
+  --brand-spark: #f38020;
+  --brand-spark-deep: #ea580c;
+
+  /* Semantic WCAG AA status signals */
+  --signal-emerald: #16a34a;
+  --signal-amber: #d97706;
+  --signal-crimson: #dc2626;
+
+  /* Apple optical font stacks with Plus Jakarta Sans & JetBrains Mono cross-platform fallback */
+  --font-display: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+  --font-text: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Plus Jakarta Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "SF Mono", ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  html {
+    font-optical-sizing: auto;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body {
+    background-color: var(--bg-canvas);
+    color: var(--ink-primary);
+    font-family: var(--font-text);
+    font-size: 13.5px;
+    line-height: 1.48;
+    letter-spacing: -0.008em;
+    font-feature-settings: "cv05" 1;
+  }
+
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.022em;
+    text-wrap: balance;
+  }
+
+  code,
+  pre,
+  kbd,
+  .font-mono {
+    font-family: var(--font-mono);
+    font-feature-settings: "tnum" 1, "case" 1;
+  }
+
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  a:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--accent-blue-ring);
+  }
+
+  .focus-ring-none:focus,
+  .focus-ring-none:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Apple HIG Optical Typography Scale */
+.type-kpi {
+  font-family: var(--font-display);
+  font-size: 28px;
+  line-height: 1.12;
+  font-weight: 600;
+  letter-spacing: -0.028em;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "case" 1, "cv05" 1;
+}
+
+.type-page-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  line-height: 1.22;
+  font-weight: 600;
+  letter-spacing: -0.022em;
+  color: var(--ink-primary);
+  text-wrap: balance;
+}
+
+.type-section {
+  font-family: var(--font-display);
+  font-size: 15px;
+  line-height: 1.32;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  color: var(--ink-primary);
+}
+
+.type-body {
+  font-family: var(--font-text);
+  font-size: 13.5px;
+  line-height: 1.48;
+  letter-spacing: -0.008em;
+}
+
+.type-control {
+  font-family: var(--font-text);
+  font-size: 12.5px;
+  line-height: 1.35;
+  font-weight: 500;
+  letter-spacing: -0.004em;
+}
+
+.type-caption {
+  font-family: var(--font-text);
+  font-size: 11px;
+  line-height: 1.35;
+  font-weight: 500;
+  letter-spacing: 0.012em;
+}
+
+.type-mono-data {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "case" 1;
+  letter-spacing: -0.01em;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "case" 1;
+}
+
+/* Tier 0: Cloudflare Flat Hairline Panels */
+.surface-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-default);
+  border-radius: 10px;
+}
+
+/* Tier 1: Apple Segmented Control Active Thumb */
+.segmented-thumb-shadow {
+  box-shadow:
+    0 1px 2px rgba(17, 24, 39, 0.08),
+    0 0 0 0.5px rgba(17, 24, 39, 0.05);
+}
+
+/* Tier 2: Apple Sonoma Frosted Vibrancy Overlays */
+.surface-vibrancy-bar {
+  background-color: rgba(255, 255, 255, 0.82);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+.surface-vibrancy-overlay {
+  background-color: rgba(255, 255, 255, 0.88);
+  backdrop-filter: saturate(190%) blur(24px);
+  -webkit-backdrop-filter: saturate(190%) blur(24px);
+  box-shadow:
+    inset 0 0.5px 0 rgba(255, 255, 255, 0.9),
+    0 1px 2px rgba(17, 24, 39, 0.05),
+    0 20px 44px -12px rgba(17, 24, 39, 0.16),
+    0 0 0 0.5px rgba(17, 24, 39, 0.08);
+}
+
+.surface-vibrancy-toast {
+  background-color: rgba(255, 255, 255, 0.86);
+  backdrop-filter: saturate(180%) blur(18px);
+  -webkit-backdrop-filter: saturate(180%) blur(18px);
+  box-shadow:
+    inset 0 0.5px 0 rgba(255, 255, 255, 0.9),
+    0 4px 16px -4px rgba(17, 24, 39, 0.12),
+    0 0 0 0.5px rgba(17, 24, 39, 0.08);
+}
+
+.surface-elevated {
+  background-color: #ffffff;
+  box-shadow:
+    0 1px 2px rgba(17, 24, 39, 0.04),
+    0 16px 36px -10px rgba(17, 24, 39, 0.14),
+    0 0 0 0.5px rgba(17, 24, 39, 0.06);
+}
+
+/* Cloudflare Live Protection Topology Canvas */
+.topology-stage {
+  background-color: #fafbfc;
+  background-image: radial-gradient(#e2e5ea 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* Balanced Pro-App Data Row Rhythm */
+.kumo-table-head {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid var(--border-default);
+}
+
+.kumo-table-row {
+  min-height: 40px;
+  transition: background-color 120ms ease;
+}
+
+.kumo-table-row:hover {
+  background-color: #f8f9fb;
+}
+
+/* Crisp macOS-style minimal scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(17, 24, 39, 0.14);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(17, 24, 39, 0.28);
+}
+
+/* Apple-Style Shimmer Skeleton Surfaces */
+@keyframes apple-shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+.shimmer-block {
+  background-color: #f1f3f5;
+  background-image: linear-gradient(
+    105deg,
+    #f1f3f5 0%,
+    #f1f3f5 38%,
+    #fafbfc 48%,
+    #ffffff 50%,
+    #fafbfc 52%,
+    #f1f3f5 62%,
+    #f1f3f5 100%
+  );
+  background-size: 220% 100%;
+  animation: apple-shimmer 1.65s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+.shimmer-block-subtle {
+  background-color: #f4f6f8;
+  background-image: linear-gradient(
+    105deg,
+    #f4f6f8 0%,
+    #f4f6f8 38%,
+    #fbfcfd 48%,
+    #ffffff 50%,
+    #fbfcfd 52%,
+    #f4f6f8 62%,
+    #f4f6f8 100%
+  );
+  background-size: 220% 100%;
+  animation: apple-shimmer 1.65s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .shimmer-block,
+  .shimmer-block-subtle {
+    animation: none !important;
+    background-image: none !important;
+  }
+}

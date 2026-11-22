@@ -1,0 +1,6 @@
+{
+  "name": "DefySwarm",
+  "description": "Out-of-band cloud object storage ransomware defense console with real-time 4-signal detection, cross-principal swarm containment, WORM vault one-click restore, 30-run benchmark harness, and Groq gpt-oss-120b adaptive canaries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
