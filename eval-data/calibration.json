@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-22T00:36:07.851Z",
+  "recordings": 0,
+  "applied": false,
+  "sizeScale": 1,
+  "interArrivalScale": 1,
+  "benignEntropyShift": 0,
+  "notes": [
+    "No recorded benign traces found in eval-data/traces/recorded.",
+    "The generator uses its documented synthetic distributions; the scorecard is labelled synthetic."
+  ]
+}

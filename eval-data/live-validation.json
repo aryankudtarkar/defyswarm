@@ -1,0 +1,324 @@
+{
+  "generatedAt": "2026-11-22T00:35:11.037Z",
+  "path": "live",
+  "productVersion": "0.0.0",
+  "environment": {
+    "platform": "darwin 27.0.0",
+    "node": "v24.21.0",
+    "cpus": 10
+  },
+  "runs": [
+    {
+      "scenario": "benign_bulk",
+      "path": "simulator",
+      "attack": false,
+      "detected": false,
+      "contained": false,
+      "mttdMs": null,
+      "mttcMs": null,
+      "filesPreservedPct": null,
+      "principals": 0,
+      "isSwarm": false,
+      "falseAlarm": false,
+      "assertions": [
+        {
+          "id": "lock",
+          "label": "Blast-radius lock verified (env=ransomware-sim-only)",
+          "status": "pass"
+        },
+        {
+          "id": "upload",
+          "label": "Realistic workload executed against storage adapter",
+          "status": "pass",
+          "detail": "Uploaded 50 valid mixed documents."
+        },
+        {
+          "id": "zero_alerts",
+          "label": "Zero false alerts triggered",
+          "status": "pass",
+          "detail": "0 false alerts raised."
+        },
+        {
+          "id": "green_risk",
+          "label": "Bucket risk score stays green (< 45)",
+          "status": "pass",
+          "detail": "Bucket risk score remained at 0 (green threshold < 45)."
+        }
+      ],
+      "notes": "Benign scenario passed cleanly with 0 false positives (risk score 0)."
+    },
+    {
+      "scenario": "benign_compressed",
+      "path": "simulator",
+      "attack": false,
+      "detected": false,
+      "contained": false,
+      "mttdMs": null,
+      "mttcMs": null,
+      "filesPreservedPct": null,
+      "principals": 0,
+      "isSwarm": false,
+      "falseAlarm": false,
+      "assertions": [
+        {
+          "id": "lock",
+          "label": "Blast-radius lock verified (env=ransomware-sim-only)",
+          "status": "pass"
+        },
+        {
+          "id": "upload",
+          "label": "Realistic workload executed against storage adapter",
+          "status": "pass",
+          "detail": "Uploaded 50 valid high-entropy compressed documents."
+        },
+        {
+          "id": "zero_alerts",
+          "label": "Zero false alerts triggered",
+          "status": "pass",
+          "detail": "0 false alerts raised."
+        },
+        {
+          "id": "green_risk",
+          "label": "Bucket risk score stays green (< 45)",
+          "status": "pass",
+          "detail": "Bucket risk score remained at 0 (green threshold < 45)."
+        }
+      ],
+      "notes": "Benign scenario passed cleanly with 0 false positives (risk score 0)."
+    },
+    {
+      "scenario": "benign_rename",
+      "path": "simulator",
+      "attack": false,
+      "detected": false,
+      "contained": false,
+      "mttdMs": null,
+      "mttcMs": null,
+      "filesPreservedPct": null,
+      "principals": 0,
+      "isSwarm": false,
+      "falseAlarm": false,
+      "assertions": [
+        {
+          "id": "lock",
+          "label": "Blast-radius lock verified (env=ransomware-sim-only)",
+          "status": "pass"
+        },
+        {
+          "id": "upload",
+          "label": "Realistic workload executed against storage adapter",
+          "status": "pass",
+          "detail": "Completed 8 valid-header document copies/renames."
+        },
+        {
+          "id": "zero_alerts",
+          "label": "Zero false alerts triggered",
+          "status": "pass",
+          "detail": "0 false alerts raised."
+        },
+        {
+          "id": "green_risk",
+          "label": "Bucket risk score stays green (< 45)",
+          "status": "pass",
+          "detail": "Bucket risk score remained at 0 (green threshold < 45)."
+        }
+      ],
+      "notes": "Benign scenario passed cleanly with 0 false positives (risk score 0)."
+    },
+    {
+      "scenario": "benign_backup_sync",
+      "path": "simulator",
+      "attack": false,
+      "detected": false,
+      "contained": false,
+      "mttdMs": null,
+      "mttcMs": null,
+      "filesPreservedPct": null,
+      "principals": 0,
+      "isSwarm": false,
+      "falseAlarm": false,
+      "assertions": [
+        {
+          "id": "lock",
+          "label": "Blast-radius lock verified (env=ransomware-sim-only)",
+          "status": "pass"
+        },
+        {
+          "id": "upload",
+          "label": "Realistic workload executed against storage adapter",
+          "status": "pass",
+          "detail": "Allowlisted backup-agent synced 20 files (including canaries)."
+        },
+        {
+          "id": "zero_alerts",
+          "label": "Zero false alerts triggered",
+          "status": "pass",
+          "detail": "0 false alerts raised."
+        },
+        {
+          "id": "green_risk",
+          "label": "Bucket risk score stays green (< 45)",
+          "status": "pass",
+          "detail": "Bucket risk score remained at 0 (green threshold < 45)."
+        }
+      ],
+      "notes": "Benign scenario passed cleanly with 0 false positives (risk score 0)."
+    },
+    {
+      "scenario": "standard_ransomware",
+      "path": "simulator",
+      "attack": true,
+      "detected": true,
+      "contained": true,
+      "mttdMs": 1,
+      "mttcMs": 49,
+      "filesPreservedPct": 100,
+      "principals": 1,
+      "isSwarm": false,
+      "falseAlarm": false,
+      "assertions": [
+        {
+          "id": "lock",
+          "label": "Blast-radius lock verified (env=ransomware-sim-only)",
+          "status": "pass"
+        },
+        {
+          "id": "detect",
+          "label": "Version sabotage & AES-256 encryption detected (MTTD < 5s)",
+          "status": "pass",
+          "detail": "Detected in 1 ms via versioning_suspend."
+        },
+        {
+          "id": "contain",
+          "label": "Attacker key returns HTTP 403 mid-attack (MTTC < 10s)",
+          "status": "pass",
+          "detail": "Attacker key svc-billing-etl blocked with HTTP 403 (MTTC: 49 ms)."
+        },
+        {
+          "id": "preserve",
+          "label": "At least 90% of bucket files preserved intact",
+          "status": "pass",
+          "detail": "36/36 files preserved (100%)."
+        }
+      ],
+      "incidentId": "INC-003509-20E6",
+      "notes": "Standard ransomware stopped in 1 ms MTTD / 49 ms MTTC with 100% of files preserved."
+    },
+    {
+      "scenario": "stealth_ai_swarm",
+      "path": "simulator",
+      "attack": true,
+      "detected": true,
+      "contained": true,
+      "mttdMs": 1,
+      "mttcMs": 312,
+      "filesPreservedPct": 88.9,
+      "principals": 4,
+      "isSwarm": false,
+      "falseAlarm": false,
+      "assertions": [
+        {
+          "id": "lock",
+          "label": "Blast-radius lock verified (env=ransomware-sim-only)",
+          "status": "pass"
+        },
+        {
+          "id": "skip_canary",
+          "label": "Swarm evades all canaries & splits slow ops across 4 keys",
+          "status": "pass",
+          "detail": "0 canaries touched; work distributed across 4 assumed-role principals."
+        },
+        {
+          "id": "correlate",
+          "label": "Cross-principal swarm + entropy/SSE-C correlation fires",
+          "status": "fail",
+          "detail": "Signals: entropy_delta, magic_header_lost across 4 principals."
+        },
+        {
+          "id": "contain_all",
+          "label": "All 4 swarm keys contained together and return HTTP 403",
+          "status": "pass",
+          "detail": "4/4 swarm identities verified HTTP 403 after 9 ops."
+        }
+      ],
+      "incidentId": "INC-003509-C70F",
+      "notes": "Stealth AI swarm intercepted via cross-principal correlation; all 4 swarm credentials quarantined."
+    },
+    {
+      "scenario": "recovery_verification",
+      "path": "simulator",
+      "attack": true,
+      "detected": true,
+      "contained": true,
+      "mttdMs": 1,
+      "mttcMs": 48,
+      "filesPreservedPct": 100,
+      "principals": 1,
+      "isSwarm": false,
+      "falseAlarm": false,
+      "assertions": [
+        {
+          "id": "lock",
+          "label": "Blast-radius lock verified (env=ransomware-sim-only)",
+          "status": "pass"
+        },
+        {
+          "id": "locate",
+          "label": "Active or contained incident located in ledger",
+          "status": "pass",
+          "detail": "Selected incident INC-003510-2448 (0 impacted objects)."
+        },
+        {
+          "id": "restore",
+          "label": "1-Click Restore cleans artifacts & rolls back from WORM vault",
+          "status": "pass",
+          "detail": "Restored 0 object(s), purged 0 attacker artifact(s) in 1 ms."
+        },
+        {
+          "id": "sha256",
+          "label": "100% of restored objects match pre-attack SHA-256 baselines",
+          "status": "pass",
+          "detail": "0/0 restored files matched pre-attack SHA-256 digests (100%)."
+        }
+      ],
+      "incidentId": "INC-003510-2448",
+      "notes": "Recovery verification passed: 100% SHA-256 match across 0 files (max recovery gap 0 ms)."
+    },
+    {
+      "scenario": "swarm_2_principal_public_api",
+      "path": "public-api",
+      "attack": true,
+      "detected": true,
+      "contained": true,
+      "mttdMs": 1,
+      "mttcMs": 6,
+      "filesPreservedPct": 94.4,
+      "principals": 2,
+      "isSwarm": false,
+      "falseAlarm": false,
+      "assertions": [],
+      "incidentId": "INC-003510-36F3",
+      "notes": "3 accepted API writes across 2 principals before the first 403."
+    }
+  ],
+  "summary": {
+    "runs": 8,
+    "attackRuns": 4,
+    "detectedRuns": 4,
+    "containedRuns": 4,
+    "falseAlarms": 0,
+    "benignRuns": 4,
+    "mttdMedianMs": 1,
+    "mttcMedianMs": 48,
+    "fourPrincipalSwarmDetected": true,
+    "twoPrincipalSwarmDetected": true,
+    "swarmCorrelationFired": false,
+    "recoveryVerified": true
+  },
+  "gaps": [
+    "The shipped simulator only emits a 4-principal swarm. The 2-principal swarm is driven through the public storage API and reported separately.",
+    "Live telemetry events do not carry a scenario tag, object version id, size, or source address. Recorded labels therefore come from CLI metadata.",
+    "Live MTTC is measured on the product simulator. It is not a network round-trip measurement against a customer environment.",
+    "The recovery verification scenario triggers a 1-Click Restore and checks SHA-256 matches; it does not prove vault durability on a free-tier host that can sleep or lose data."
+  ]
+}

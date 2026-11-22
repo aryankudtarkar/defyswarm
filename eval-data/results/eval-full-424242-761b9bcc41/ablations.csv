@@ -1,0 +1,7 @@
+detectorId,component,detectionRate,falsePositiveRate,medianFilesLost,deltaDetectionVsD9,deltaFalsePositiveVsD9
+D9a,canaries,1,0,1,0,0
+D9b,sabotage triggers,1,0,1,0,0
+D9c,entropy/magic,0.7142857142857143,0,1,-0.2857142857142857,0
+D9d,swarm correlation,1,0,1,0,0
+D9e,honey credentials,1,0,1,0,0
+D9f,vault,1,0,1,0,0

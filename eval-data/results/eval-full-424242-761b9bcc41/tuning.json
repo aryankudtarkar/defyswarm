@@ -1,0 +1,1416 @@
+[
+  {
+    "detectorId": "D0",
+    "grid": [
+      {
+        "params": {},
+        "detectionRate": 0,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": true
+      }
+    ],
+    "selected": {},
+    "fprBudget": 0.01
+  },
+  {
+    "detectorId": "D1",
+    "grid": [
+      {
+        "params": {
+          "intervalHours": 0.25
+        },
+        "detectionRate": 0,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": true
+      },
+      {
+        "params": {
+          "intervalHours": 1
+        },
+        "detectionRate": 0,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "intervalHours": 4
+        },
+        "detectionRate": 0,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "intervalHours": 12
+        },
+        "detectionRate": 0,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "intervalHours": 24
+        },
+        "detectionRate": 0,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      }
+    ],
+    "selected": {
+      "intervalHours": 0.25
+    },
+    "fprBudget": 0.01
+  },
+  {
+    "detectorId": "D2",
+    "grid": [
+      {
+        "params": {
+          "z": 3,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.08571428571428572,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": true
+      },
+      {
+        "params": {
+          "z": 3,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.08571428571428572,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.08571428571428572,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.08571428571428572,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3.5,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.08571428571428572,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3.5,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.08571428571428572,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3.5,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.08571428571428572,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3.5,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.08571428571428572,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3.5,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3.5,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3.5,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 3.5,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 4,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 4,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 4,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 4,
+          "minHistory": 5,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 4,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 4,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 4,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 25,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "z": 4,
+          "minHistory": 10,
+          "windowSeconds": 15,
+          "minEntropyDelta": 1.5,
+          "minRate": 50,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.05714285714285714,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      }
+    ],
+    "selected": {
+      "z": 3,
+      "minHistory": 5,
+      "windowSeconds": 15,
+      "minEntropyDelta": 1,
+      "minRate": 25,
+      "allowlist": [
+        "ci-deployer",
+        "backup-agent",
+        "dlp-scanner"
+      ]
+    },
+    "fprBudget": 0.01
+  },
+  {
+    "detectorId": "D3",
+    "grid": [
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 3,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.5428571428571428,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 3,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.5428571428571428,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 3,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.5428571428571428,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": true
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 5,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.42857142857142855,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 5,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.42857142857142855,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 5,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.42857142857142855,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 10,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.2571428571428571,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 10,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.2571428571428571,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 10,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.2571428571428571,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 20,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.11428571428571428,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 20,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.11428571428571428,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 1,
+          "suspiciousThreshold": 20,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.11428571428571428,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 3,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6571428571428571,
+        "falsePositiveRate": 0.10416666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 3,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6571428571428571,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 3,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6571428571428571,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 5,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6285714285714286,
+        "falsePositiveRate": 0.10416666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 5,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6285714285714286,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 5,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6285714285714286,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 10,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.3142857142857143,
+        "falsePositiveRate": 0.10416666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 10,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.2857142857142857,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 10,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.2857142857142857,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 20,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.17142857142857143,
+        "falsePositiveRate": 0.10416666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 20,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.14285714285714285,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 5,
+          "suspiciousThreshold": 20,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.14285714285714285,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 3,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6571428571428571,
+        "falsePositiveRate": 0.10416666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 3,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6571428571428571,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 3,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6571428571428571,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 5,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6285714285714286,
+        "falsePositiveRate": 0.10416666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 5,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6285714285714286,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 5,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.6285714285714286,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 10,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.3142857142857143,
+        "falsePositiveRate": 0.10416666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 10,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.3142857142857143,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 10,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.3142857142857143,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 20,
+          "writeThreshold": 100,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.17142857142857143,
+        "falsePositiveRate": 0.10416666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 20,
+          "writeThreshold": 500,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.14285714285714285,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "batchMinutes": 15,
+          "suspiciousThreshold": 20,
+          "writeThreshold": 2000,
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.14285714285714285,
+        "falsePositiveRate": 0.08333333333333333,
+        "traces": 48,
+        "selected": false
+      }
+    ],
+    "selected": {
+      "batchMinutes": 1,
+      "suspiciousThreshold": 3,
+      "writeThreshold": 2000,
+      "allowlist": [
+        "ci-deployer",
+        "backup-agent",
+        "dlp-scanner"
+      ]
+    },
+    "fprBudget": 0.01
+  },
+  {
+    "detectorId": "D4",
+    "grid": [
+      {
+        "params": {
+          "entropyThreshold": 7
+        },
+        "detectionRate": 0.5142857142857142,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": true
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.5
+        },
+        "detectionRate": 0.5142857142857142,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.8
+        },
+        "detectionRate": 0.5142857142857142,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.9
+        },
+        "detectionRate": 0.5142857142857142,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.95
+        },
+        "detectionRate": 0.5142857142857142,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      }
+    ],
+    "selected": {
+      "entropyThreshold": 7
+    },
+    "fprBudget": 0.01
+  },
+  {
+    "detectorId": "D5",
+    "grid": [
+      {
+        "params": {
+          "entropyDeltaThreshold": 0.5
+        },
+        "detectionRate": 0.14285714285714285,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": true
+      },
+      {
+        "params": {
+          "entropyDeltaThreshold": 1
+        },
+        "detectionRate": 0.14285714285714285,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyDeltaThreshold": 1.5
+        },
+        "detectionRate": 0.14285714285714285,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyDeltaThreshold": 2
+        },
+        "detectionRate": 0.14285714285714285,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      }
+    ],
+    "selected": {
+      "entropyDeltaThreshold": 0.5
+    },
+    "fprBudget": 0.01
+  },
+  {
+    "detectorId": "D6",
+    "grid": [
+      {
+        "params": {
+          "extensions": [
+            ".locked"
+          ]
+        },
+        "detectionRate": 0.2,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": true
+      },
+      {
+        "params": {
+          "extensions": [
+            ".locked",
+            ".encrypted"
+          ]
+        },
+        "detectionRate": 0.2,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "extensions": [
+            ".locked",
+            ".encrypted",
+            ".crypt",
+            ".enc"
+          ]
+        },
+        "detectionRate": 0.2,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": false
+      }
+    ],
+    "selected": {
+      "extensions": [
+        ".locked"
+      ]
+    },
+    "fprBudget": 0.01
+  },
+  {
+    "detectorId": "D7",
+    "grid": [
+      {
+        "params": {
+          "names": [
+            "_DO_NOT_DELETE_CANARY.txt",
+            "zzz_canary_do_not_touch.docx",
+            "CANARY_TRIPWIRE.xlsx"
+          ],
+          "allowlist": [
+            "ci-deployer",
+            "backup-agent",
+            "dlp-scanner"
+          ]
+        },
+        "detectionRate": 0.3142857142857143,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": true
+      }
+    ],
+    "selected": {
+      "names": [
+        "_DO_NOT_DELETE_CANARY.txt",
+        "zzz_canary_do_not_touch.docx",
+        "CANARY_TRIPWIRE.xlsx"
+      ],
+      "allowlist": [
+        "ci-deployer",
+        "backup-agent",
+        "dlp-scanner"
+      ]
+    },
+    "fprBudget": 0.01
+  },
+  {
+    "detectorId": "D8",
+    "grid": [
+      {
+        "params": {
+          "entropyThreshold": 7
+        },
+        "detectionRate": 1,
+        "falsePositiveRate": 0.3541666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.2
+        },
+        "detectionRate": 1,
+        "falsePositiveRate": 0.3541666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.4
+        },
+        "detectionRate": 0.9142857142857143,
+        "falsePositiveRate": 0.3541666666666667,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.6
+        },
+        "detectionRate": 0.6,
+        "falsePositiveRate": 0.2708333333333333,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.8
+        },
+        "detectionRate": 0.6,
+        "falsePositiveRate": 0.25,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.9
+        },
+        "detectionRate": 0.5714285714285714,
+        "falsePositiveRate": 0.22916666666666666,
+        "traces": 48,
+        "selected": false
+      },
+      {
+        "params": {
+          "entropyThreshold": 7.95
+        },
+        "detectionRate": 0.5142857142857142,
+        "falsePositiveRate": 0,
+        "traces": 48,
+        "selected": true
+      }
+    ],
+    "selected": {
+      "entropyThreshold": 7.95
+    },
+    "fprBudget": 0.01
+  },
+  {
+    "detectorId": "D9",
+    "grid": [],
+    "selected": {},
+    "fprBudget": 0.01,
+    "notes": "Shipped policies.yaml; not tuned."
+  },
+  {
+    "detectorId": "D9a",
+    "grid": [],
+    "selected": {},
+    "fprBudget": 0.01,
+    "notes": "Ablation; not tuned."
+  },
+  {
+    "detectorId": "D9b",
+    "grid": [],
+    "selected": {},
+    "fprBudget": 0.01,
+    "notes": "Ablation; not tuned."
+  },
+  {
+    "detectorId": "D9c",
+    "grid": [],
+    "selected": {},
+    "fprBudget": 0.01,
+    "notes": "Ablation; not tuned."
+  },
+  {
+    "detectorId": "D9d",
+    "grid": [],
+    "selected": {},
+    "fprBudget": 0.01,
+    "notes": "Ablation; not tuned."
+  },
+  {
+    "detectorId": "D9e",
+    "grid": [],
+    "selected": {},
+    "fprBudget": 0.01,
+    "notes": "Ablation; not tuned."
+  },
+  {
+    "detectorId": "D9f",
+    "grid": [],
+    "selected": {},
+    "fprBudget": 0.01,
+    "notes": "Ablation; not tuned."
+  }
+]

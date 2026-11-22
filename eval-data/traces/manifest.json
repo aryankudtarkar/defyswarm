@@ -1,0 +1,2116 @@
+{
+  "generatedAt": "2026-11-22T00:27:25.976Z",
+  "generationSeed": 20261122,
+  "generatorVersion": "1.0.0",
+  "totalTraces": 210,
+  "tuningTraces": 48,
+  "heldoutTraces": 162,
+  "families": {
+    "benign": 63,
+    "ransomware": 70,
+    "swarm": 42,
+    "mixed": 35
+  },
+  "traces": [
+    {
+      "traceId": "tr-benign-20261133-318fd4",
+      "family": "benign",
+      "kind": "benign_upload_50",
+      "seed": 20261133,
+      "split": "heldout",
+      "path": "generated/tr-benign-20261133-318fd4.jsonl",
+      "eventCount": 50,
+      "sha256": "36f6ad9af6c98270384571859f41d1239d0ac91aa8ba375e1886cd07c69827a4"
+    },
+    {
+      "traceId": "tr-benign-20269052-318fd4",
+      "family": "benign",
+      "kind": "benign_upload_50",
+      "seed": 20269052,
+      "split": "tuning",
+      "path": "generated/tr-benign-20269052-318fd4.jsonl",
+      "eventCount": 50,
+      "sha256": "6cb30c998f14149e80ead871d57e14b2c69b256c2b28c8aece1541fd0dfb218d"
+    },
+    {
+      "traceId": "tr-benign-20276971-318fd4",
+      "family": "benign",
+      "kind": "benign_upload_50",
+      "seed": 20276971,
+      "split": "heldout",
+      "path": "generated/tr-benign-20276971-318fd4.jsonl",
+      "eventCount": 50,
+      "sha256": "6ff158e6f2ab97cfaa470b9fa8e2b8e9fec54cdf861fc998f0e45b19fc7ff870"
+    },
+    {
+      "traceId": "tr-benign-20284890-318fd4",
+      "family": "benign",
+      "kind": "benign_upload_50",
+      "seed": 20284890,
+      "split": "heldout",
+      "path": "generated/tr-benign-20284890-318fd4.jsonl",
+      "eventCount": 50,
+      "sha256": "46278acf8f9256cd1650ac5be07c9408413758adce8add4ecfc245d475a034f5"
+    },
+    {
+      "traceId": "tr-benign-20292809-318fd4",
+      "family": "benign",
+      "kind": "benign_upload_50",
+      "seed": 20292809,
+      "split": "heldout",
+      "path": "generated/tr-benign-20292809-318fd4.jsonl",
+      "eventCount": 50,
+      "sha256": "fc2373a2957d6eda83a03dff32bdcecfee6bc6d6e5907b004e080b2c516ebe68"
+    },
+    {
+      "traceId": "tr-benign-20300728-318fd4",
+      "family": "benign",
+      "kind": "benign_upload_50",
+      "seed": 20300728,
+      "split": "heldout",
+      "path": "generated/tr-benign-20300728-318fd4.jsonl",
+      "eventCount": 50,
+      "sha256": "a6980b29774fc6ca257a047da1080f71c2dc637160fbc9b38ddbc49ca6c567fb"
+    },
+    {
+      "traceId": "tr-benign-20308647-318fd4",
+      "family": "benign",
+      "kind": "benign_upload_50",
+      "seed": 20308647,
+      "split": "heldout",
+      "path": "generated/tr-benign-20308647-318fd4.jsonl",
+      "eventCount": 50,
+      "sha256": "1be0a87a68635602e0f067df7424f37eaa31286534bd989a3f6a32ecc6d15e6a"
+    },
+    {
+      "traceId": "tr-benign-20316566-715011",
+      "family": "benign",
+      "kind": "benign_upload_5000_compressed_media",
+      "seed": 20316566,
+      "split": "tuning",
+      "path": "generated/tr-benign-20316566-715011.jsonl",
+      "eventCount": 5000,
+      "sha256": "bb8b19e8a64f356124614ab8bc00b59965dcee38ebdd524e80df467b86af4d67"
+    },
+    {
+      "traceId": "tr-benign-20324485-715011",
+      "family": "benign",
+      "kind": "benign_upload_5000_compressed_media",
+      "seed": 20324485,
+      "split": "heldout",
+      "path": "generated/tr-benign-20324485-715011.jsonl",
+      "eventCount": 5000,
+      "sha256": "ae2b24fc57606fd8016d4fb52e6d293e97920c36c67b7aeb1ddd059770db74e5"
+    },
+    {
+      "traceId": "tr-benign-20332404-715011",
+      "family": "benign",
+      "kind": "benign_upload_5000_compressed_media",
+      "seed": 20332404,
+      "split": "tuning",
+      "path": "generated/tr-benign-20332404-715011.jsonl",
+      "eventCount": 5000,
+      "sha256": "d641d5b48f9ddd7efb4f995303ddc932b555a8682626daf0573400e7cd3c6310"
+    },
+    {
+      "traceId": "tr-benign-20340323-715011",
+      "family": "benign",
+      "kind": "benign_upload_5000_compressed_media",
+      "seed": 20340323,
+      "split": "heldout",
+      "path": "generated/tr-benign-20340323-715011.jsonl",
+      "eventCount": 5000,
+      "sha256": "be2fad58c356ed7d7feae977bbadaa23a48ae7f071a07fbe7872e655f2fce957"
+    },
+    {
+      "traceId": "tr-benign-20348242-715011",
+      "family": "benign",
+      "kind": "benign_upload_5000_compressed_media",
+      "seed": 20348242,
+      "split": "tuning",
+      "path": "generated/tr-benign-20348242-715011.jsonl",
+      "eventCount": 5000,
+      "sha256": "849182bd113147372490c529bbc86af5dc6db76968885e334de19210527162b8"
+    },
+    {
+      "traceId": "tr-benign-20356161-715011",
+      "family": "benign",
+      "kind": "benign_upload_5000_compressed_media",
+      "seed": 20356161,
+      "split": "heldout",
+      "path": "generated/tr-benign-20356161-715011.jsonl",
+      "eventCount": 5000,
+      "sha256": "ada9d28c9c6560336021abc9043d46b192e8698e9566c7e74e7890290aa8bba4"
+    },
+    {
+      "traceId": "tr-benign-20364080-715011",
+      "family": "benign",
+      "kind": "benign_upload_5000_compressed_media",
+      "seed": 20364080,
+      "split": "tuning",
+      "path": "generated/tr-benign-20364080-715011.jsonl",
+      "eventCount": 5000,
+      "sha256": "895db4668f72c847a8fc1e1167051b1d1a5b7e360ab7fedc2903ca818e94c811"
+    },
+    {
+      "traceId": "tr-benign-20371999-5ce84e",
+      "family": "benign",
+      "kind": "benign_bulk_rename_move",
+      "seed": 20371999,
+      "split": "heldout",
+      "path": "generated/tr-benign-20371999-5ce84e.jsonl",
+      "eventCount": 80,
+      "sha256": "52eac10e7262d090ca811c96b2ca984ceeb6e3f37fc500cd6a0ca16672692f1f"
+    },
+    {
+      "traceId": "tr-benign-20379918-5ce84e",
+      "family": "benign",
+      "kind": "benign_bulk_rename_move",
+      "seed": 20379918,
+      "split": "tuning",
+      "path": "generated/tr-benign-20379918-5ce84e.jsonl",
+      "eventCount": 80,
+      "sha256": "0bb2eca25a0a56f6e25d61597fa47c1fda03e3555df3b7932c2fd1b173952190"
+    },
+    {
+      "traceId": "tr-benign-20387837-5ce84e",
+      "family": "benign",
+      "kind": "benign_bulk_rename_move",
+      "seed": 20387837,
+      "split": "tuning",
+      "path": "generated/tr-benign-20387837-5ce84e.jsonl",
+      "eventCount": 80,
+      "sha256": "dd6ec4cca5a6ae988b8c2e0ba6aa1aae3b02649d0e3214a3c43eee81c3975f8b"
+    },
+    {
+      "traceId": "tr-benign-20395756-5ce84e",
+      "family": "benign",
+      "kind": "benign_bulk_rename_move",
+      "seed": 20395756,
+      "split": "heldout",
+      "path": "generated/tr-benign-20395756-5ce84e.jsonl",
+      "eventCount": 80,
+      "sha256": "d3f968fec897da08d6c420ba1b63241aa82ea1243dd0180f67543eb5755f978e"
+    },
+    {
+      "traceId": "tr-benign-20403675-5ce84e",
+      "family": "benign",
+      "kind": "benign_bulk_rename_move",
+      "seed": 20403675,
+      "split": "heldout",
+      "path": "generated/tr-benign-20403675-5ce84e.jsonl",
+      "eventCount": 80,
+      "sha256": "4651b435c239e917b36fefc35e6ee12381d6bc54a9d5af99e47cb456b29e7539"
+    },
+    {
+      "traceId": "tr-benign-20411594-5ce84e",
+      "family": "benign",
+      "kind": "benign_bulk_rename_move",
+      "seed": 20411594,
+      "split": "heldout",
+      "path": "generated/tr-benign-20411594-5ce84e.jsonl",
+      "eventCount": 80,
+      "sha256": "7bbc92850964d46a1582f669aab8923016b96678ee49d7afecb360416b53a587"
+    },
+    {
+      "traceId": "tr-benign-20419513-5ce84e",
+      "family": "benign",
+      "kind": "benign_bulk_rename_move",
+      "seed": 20419513,
+      "split": "tuning",
+      "path": "generated/tr-benign-20419513-5ce84e.jsonl",
+      "eventCount": 80,
+      "sha256": "f298a35becf4760d3c8c7aae34c7d5816f6c0c267482aa5e8d2d2b1ce13b8253"
+    },
+    {
+      "traceId": "tr-benign-20427432-d347c8",
+      "family": "benign",
+      "kind": "benign_nightly_backup",
+      "seed": 20427432,
+      "split": "heldout",
+      "path": "generated/tr-benign-20427432-d347c8.jsonl",
+      "eventCount": 50,
+      "sha256": "ed0206e22470557545466c6d06409e5adef749ab15d1dfe26fcf31d4925b9ed4"
+    },
+    {
+      "traceId": "tr-benign-20435351-d347c8",
+      "family": "benign",
+      "kind": "benign_nightly_backup",
+      "seed": 20435351,
+      "split": "heldout",
+      "path": "generated/tr-benign-20435351-d347c8.jsonl",
+      "eventCount": 50,
+      "sha256": "67269117439d451422e2d2261f880472c33ff00d533b3ad5e52b572e1a253319"
+    },
+    {
+      "traceId": "tr-benign-20443270-d347c8",
+      "family": "benign",
+      "kind": "benign_nightly_backup",
+      "seed": 20443270,
+      "split": "heldout",
+      "path": "generated/tr-benign-20443270-d347c8.jsonl",
+      "eventCount": 50,
+      "sha256": "14232dd34c699367d6e129d3f1c99c8407c229ee8d8799b7140842ba81c3ba96"
+    },
+    {
+      "traceId": "tr-benign-20451189-d347c8",
+      "family": "benign",
+      "kind": "benign_nightly_backup",
+      "seed": 20451189,
+      "split": "heldout",
+      "path": "generated/tr-benign-20451189-d347c8.jsonl",
+      "eventCount": 50,
+      "sha256": "f3c4dd182ac4c5b5f2c1dbd4167ac4fe8dc957b8917a0a213e80bd90027bf66c"
+    },
+    {
+      "traceId": "tr-benign-20459108-d347c8",
+      "family": "benign",
+      "kind": "benign_nightly_backup",
+      "seed": 20459108,
+      "split": "heldout",
+      "path": "generated/tr-benign-20459108-d347c8.jsonl",
+      "eventCount": 50,
+      "sha256": "5bb1bc19abef9d496b2eb9789ac941bc1c7e9928c33c6f4a7e5cfc56e5bd6984"
+    },
+    {
+      "traceId": "tr-benign-20467027-d347c8",
+      "family": "benign",
+      "kind": "benign_nightly_backup",
+      "seed": 20467027,
+      "split": "heldout",
+      "path": "generated/tr-benign-20467027-d347c8.jsonl",
+      "eventCount": 50,
+      "sha256": "272145664fbad25e92fe876ddeb7b83d5f80670b7ae8a96cf18d09745196f5f3"
+    },
+    {
+      "traceId": "tr-benign-20474946-d347c8",
+      "family": "benign",
+      "kind": "benign_nightly_backup",
+      "seed": 20474946,
+      "split": "tuning",
+      "path": "generated/tr-benign-20474946-d347c8.jsonl",
+      "eventCount": 50,
+      "sha256": "fd545ba3d927fc737d9a2bd99f7a0f7251f4a0c4627608c8db425628fcaf3fe4"
+    },
+    {
+      "traceId": "tr-benign-20482865-b09b16",
+      "family": "benign",
+      "kind": "benign_av_dlp_scan",
+      "seed": 20482865,
+      "split": "heldout",
+      "path": "generated/tr-benign-20482865-b09b16.jsonl",
+      "eventCount": 200,
+      "sha256": "f2b3d64889cda6b06430e1c953f2e016bcb6ed4f2993973eb2ec87157e8cfc6d"
+    },
+    {
+      "traceId": "tr-benign-20490784-b09b16",
+      "family": "benign",
+      "kind": "benign_av_dlp_scan",
+      "seed": 20490784,
+      "split": "heldout",
+      "path": "generated/tr-benign-20490784-b09b16.jsonl",
+      "eventCount": 200,
+      "sha256": "8f9db43b2231a10fd616e4881d0bf3a1cacfe7f72ba9136ed5908621b77ca734"
+    },
+    {
+      "traceId": "tr-benign-20498703-b09b16",
+      "family": "benign",
+      "kind": "benign_av_dlp_scan",
+      "seed": 20498703,
+      "split": "heldout",
+      "path": "generated/tr-benign-20498703-b09b16.jsonl",
+      "eventCount": 200,
+      "sha256": "61b98d31849076227eb8abd2947b4c49f8806b5668ecf5d026c73c2ef46f9260"
+    },
+    {
+      "traceId": "tr-benign-20506622-b09b16",
+      "family": "benign",
+      "kind": "benign_av_dlp_scan",
+      "seed": 20506622,
+      "split": "heldout",
+      "path": "generated/tr-benign-20506622-b09b16.jsonl",
+      "eventCount": 200,
+      "sha256": "7ce2b10ca7f55e8c982f645e0dcb636141277904f381700328ac2e56a4659976"
+    },
+    {
+      "traceId": "tr-benign-20514541-b09b16",
+      "family": "benign",
+      "kind": "benign_av_dlp_scan",
+      "seed": 20514541,
+      "split": "heldout",
+      "path": "generated/tr-benign-20514541-b09b16.jsonl",
+      "eventCount": 200,
+      "sha256": "6d9b6a01b7f106442c82927fa759eab3750972a45357383c00a7f5852e819fec"
+    },
+    {
+      "traceId": "tr-benign-20522460-b09b16",
+      "family": "benign",
+      "kind": "benign_av_dlp_scan",
+      "seed": 20522460,
+      "split": "heldout",
+      "path": "generated/tr-benign-20522460-b09b16.jsonl",
+      "eventCount": 200,
+      "sha256": "2671771e96605161d2f4f810dd3f901e0d6cbc9720746b35e45901733280a536"
+    },
+    {
+      "traceId": "tr-benign-20530379-b09b16",
+      "family": "benign",
+      "kind": "benign_av_dlp_scan",
+      "seed": 20530379,
+      "split": "heldout",
+      "path": "generated/tr-benign-20530379-b09b16.jsonl",
+      "eventCount": 200,
+      "sha256": "c1efff61d204c162ef6133553c20e8257d621eb3f7a5d99d064379edbedffefd"
+    },
+    {
+      "traceId": "tr-benign-20538298-1aa99d",
+      "family": "benign",
+      "kind": "benign_ci_deploy_overwrite",
+      "seed": 20538298,
+      "split": "heldout",
+      "path": "generated/tr-benign-20538298-1aa99d.jsonl",
+      "eventCount": 120,
+      "sha256": "16c8399041a8b31d9f57fbdb5488b4e1f6848468fed1603eab2ae2240af957c7"
+    },
+    {
+      "traceId": "tr-benign-20546217-1aa99d",
+      "family": "benign",
+      "kind": "benign_ci_deploy_overwrite",
+      "seed": 20546217,
+      "split": "heldout",
+      "path": "generated/tr-benign-20546217-1aa99d.jsonl",
+      "eventCount": 120,
+      "sha256": "3ddab9f03033012562f126762be0e9f5781fba159e02befae0b1d1484c1ba576"
+    },
+    {
+      "traceId": "tr-benign-20554136-1aa99d",
+      "family": "benign",
+      "kind": "benign_ci_deploy_overwrite",
+      "seed": 20554136,
+      "split": "heldout",
+      "path": "generated/tr-benign-20554136-1aa99d.jsonl",
+      "eventCount": 120,
+      "sha256": "942ebc444919372a6129c1d45fa1136eec6a999661ed72aa95ea5920e2a137d5"
+    },
+    {
+      "traceId": "tr-benign-20562055-1aa99d",
+      "family": "benign",
+      "kind": "benign_ci_deploy_overwrite",
+      "seed": 20562055,
+      "split": "heldout",
+      "path": "generated/tr-benign-20562055-1aa99d.jsonl",
+      "eventCount": 120,
+      "sha256": "770912a35b13486bdccd6df213ea088890db0598381fc9152d3589e0d399d6f5"
+    },
+    {
+      "traceId": "tr-benign-20569974-1aa99d",
+      "family": "benign",
+      "kind": "benign_ci_deploy_overwrite",
+      "seed": 20569974,
+      "split": "heldout",
+      "path": "generated/tr-benign-20569974-1aa99d.jsonl",
+      "eventCount": 120,
+      "sha256": "af0624d3260a461f1002905c5d505e44670ccdef58172bd8369d51586ee7b3c6"
+    },
+    {
+      "traceId": "tr-benign-20577893-1aa99d",
+      "family": "benign",
+      "kind": "benign_ci_deploy_overwrite",
+      "seed": 20577893,
+      "split": "tuning",
+      "path": "generated/tr-benign-20577893-1aa99d.jsonl",
+      "eventCount": 120,
+      "sha256": "5ac4c6f7b1fec0d25e147187c4df4a5b02ca7705a35c2ce622beeaa0d090e253"
+    },
+    {
+      "traceId": "tr-benign-20585812-1aa99d",
+      "family": "benign",
+      "kind": "benign_ci_deploy_overwrite",
+      "seed": 20585812,
+      "split": "heldout",
+      "path": "generated/tr-benign-20585812-1aa99d.jsonl",
+      "eventCount": 120,
+      "sha256": "cb26f29905f60389ae8a7966b8667cbfe2bfda8d124979dc4382a48052128d94"
+    },
+    {
+      "traceId": "tr-benign-20593731-89d923",
+      "family": "benign",
+      "kind": "benign_photo_import",
+      "seed": 20593731,
+      "split": "heldout",
+      "path": "generated/tr-benign-20593731-89d923.jsonl",
+      "eventCount": 150,
+      "sha256": "0fe16e2a46a586ee7bc59bc916afa20606f11d8251321af85a576e9e57389958"
+    },
+    {
+      "traceId": "tr-benign-20601650-89d923",
+      "family": "benign",
+      "kind": "benign_photo_import",
+      "seed": 20601650,
+      "split": "heldout",
+      "path": "generated/tr-benign-20601650-89d923.jsonl",
+      "eventCount": 150,
+      "sha256": "8b6ebccc058e05fb9ed620266a2b30229f973fab568cc995ee2947c7e4f56399"
+    },
+    {
+      "traceId": "tr-benign-20609569-89d923",
+      "family": "benign",
+      "kind": "benign_photo_import",
+      "seed": 20609569,
+      "split": "heldout",
+      "path": "generated/tr-benign-20609569-89d923.jsonl",
+      "eventCount": 150,
+      "sha256": "232831918efa713f0e2ced53ff7d8ba59b3762fc7817ba97ae4836751b90b481"
+    },
+    {
+      "traceId": "tr-benign-20617488-89d923",
+      "family": "benign",
+      "kind": "benign_photo_import",
+      "seed": 20617488,
+      "split": "heldout",
+      "path": "generated/tr-benign-20617488-89d923.jsonl",
+      "eventCount": 150,
+      "sha256": "703b7777ffe34d302d3926bc1a05e0be7711ae5f180f3978296d7639fefc3e0f"
+    },
+    {
+      "traceId": "tr-benign-20625407-89d923",
+      "family": "benign",
+      "kind": "benign_photo_import",
+      "seed": 20625407,
+      "split": "heldout",
+      "path": "generated/tr-benign-20625407-89d923.jsonl",
+      "eventCount": 150,
+      "sha256": "99ab78352357c2ea5c05cc899cccfb12efa9846d40106e3b85f408a0335ef5c7"
+    },
+    {
+      "traceId": "tr-benign-20633326-89d923",
+      "family": "benign",
+      "kind": "benign_photo_import",
+      "seed": 20633326,
+      "split": "heldout",
+      "path": "generated/tr-benign-20633326-89d923.jsonl",
+      "eventCount": 150,
+      "sha256": "607156ee6aaf553174b519a25ee8ecaae2bac37141197a925b86ece98fefae64"
+    },
+    {
+      "traceId": "tr-benign-20641245-89d923",
+      "family": "benign",
+      "kind": "benign_photo_import",
+      "seed": 20641245,
+      "split": "heldout",
+      "path": "generated/tr-benign-20641245-89d923.jsonl",
+      "eventCount": 150,
+      "sha256": "5381bb75fc4d0d4fcf5aa3d300d6609678831882c530dd97925069b6c0e260ca"
+    },
+    {
+      "traceId": "tr-benign-20649164-a1a145",
+      "family": "benign",
+      "kind": "benign_dev_unzip_archives",
+      "seed": 20649164,
+      "split": "heldout",
+      "path": "generated/tr-benign-20649164-a1a145.jsonl",
+      "eventCount": 80,
+      "sha256": "ba3246ea130c9c5c9fb503740a3e90e480d8ef7ba57d30d80edca72beddbf0fa"
+    },
+    {
+      "traceId": "tr-benign-20657083-a1a145",
+      "family": "benign",
+      "kind": "benign_dev_unzip_archives",
+      "seed": 20657083,
+      "split": "heldout",
+      "path": "generated/tr-benign-20657083-a1a145.jsonl",
+      "eventCount": 80,
+      "sha256": "9a6cf5de603c12b7d299eccc651bbcd2678c317efe131713a286870cb841729c"
+    },
+    {
+      "traceId": "tr-benign-20665002-a1a145",
+      "family": "benign",
+      "kind": "benign_dev_unzip_archives",
+      "seed": 20665002,
+      "split": "tuning",
+      "path": "generated/tr-benign-20665002-a1a145.jsonl",
+      "eventCount": 80,
+      "sha256": "80ac5700757f50bbf3ea9e3c110768f8337de391052cc8e99111169eafc01fb6"
+    },
+    {
+      "traceId": "tr-benign-20672921-a1a145",
+      "family": "benign",
+      "kind": "benign_dev_unzip_archives",
+      "seed": 20672921,
+      "split": "heldout",
+      "path": "generated/tr-benign-20672921-a1a145.jsonl",
+      "eventCount": 80,
+      "sha256": "ddf3cfcdeadc8ac7999fac39b0e68a9b849151f770a6d8f7295e064043bf0a5a"
+    },
+    {
+      "traceId": "tr-benign-20680840-a1a145",
+      "family": "benign",
+      "kind": "benign_dev_unzip_archives",
+      "seed": 20680840,
+      "split": "tuning",
+      "path": "generated/tr-benign-20680840-a1a145.jsonl",
+      "eventCount": 80,
+      "sha256": "b1edfba23452171110603d93484365dcfbf081296db53cadc366f4abd84716ff"
+    },
+    {
+      "traceId": "tr-benign-20688759-a1a145",
+      "family": "benign",
+      "kind": "benign_dev_unzip_archives",
+      "seed": 20688759,
+      "split": "tuning",
+      "path": "generated/tr-benign-20688759-a1a145.jsonl",
+      "eventCount": 80,
+      "sha256": "8807ff6a0095c2d761b52ad521e9f0baab03e94fdf76d76dc827ca53f523127c"
+    },
+    {
+      "traceId": "tr-benign-20696678-a1a145",
+      "family": "benign",
+      "kind": "benign_dev_unzip_archives",
+      "seed": 20696678,
+      "split": "heldout",
+      "path": "generated/tr-benign-20696678-a1a145.jsonl",
+      "eventCount": 80,
+      "sha256": "ce03f6bb158fcd1e7b2cdf10c1376a30dc465dfcfb65e881f81483361643b5d6"
+    },
+    {
+      "traceId": "tr-benign-20704597-219933",
+      "family": "benign",
+      "kind": "benign_app_compressed_logs",
+      "seed": 20704597,
+      "split": "heldout",
+      "path": "generated/tr-benign-20704597-219933.jsonl",
+      "eventCount": 200,
+      "sha256": "7cc35965435bac5774293aeabb7977c161f3dad5ccaffbb850531556b514589b"
+    },
+    {
+      "traceId": "tr-benign-20712516-219933",
+      "family": "benign",
+      "kind": "benign_app_compressed_logs",
+      "seed": 20712516,
+      "split": "heldout",
+      "path": "generated/tr-benign-20712516-219933.jsonl",
+      "eventCount": 200,
+      "sha256": "f10d4c444ddb63a9771685706a112f154291fc393cddd8dd6cc55bfb68ea72bb"
+    },
+    {
+      "traceId": "tr-benign-20720435-219933",
+      "family": "benign",
+      "kind": "benign_app_compressed_logs",
+      "seed": 20720435,
+      "split": "heldout",
+      "path": "generated/tr-benign-20720435-219933.jsonl",
+      "eventCount": 200,
+      "sha256": "1979e5e55d5279f9380ab51807a021b9d8b2a3dcd50bd0162a29439f18613f86"
+    },
+    {
+      "traceId": "tr-benign-20728354-219933",
+      "family": "benign",
+      "kind": "benign_app_compressed_logs",
+      "seed": 20728354,
+      "split": "heldout",
+      "path": "generated/tr-benign-20728354-219933.jsonl",
+      "eventCount": 200,
+      "sha256": "763e783b7144905de1359e1adfd5677548a3ae9b7998b3a22361f8b42724f66e"
+    },
+    {
+      "traceId": "tr-benign-20736273-219933",
+      "family": "benign",
+      "kind": "benign_app_compressed_logs",
+      "seed": 20736273,
+      "split": "heldout",
+      "path": "generated/tr-benign-20736273-219933.jsonl",
+      "eventCount": 200,
+      "sha256": "187a7a68c696983cfb77ef8f735d66a7613b4f890815401200cdd9b2460c2669"
+    },
+    {
+      "traceId": "tr-benign-20744192-219933",
+      "family": "benign",
+      "kind": "benign_app_compressed_logs",
+      "seed": 20744192,
+      "split": "heldout",
+      "path": "generated/tr-benign-20744192-219933.jsonl",
+      "eventCount": 200,
+      "sha256": "1f79235735c432a0e136d9d312d28169a8a296bf3caa250b11bec9ff136a4950"
+    },
+    {
+      "traceId": "tr-benign-20752111-219933",
+      "family": "benign",
+      "kind": "benign_app_compressed_logs",
+      "seed": 20752111,
+      "split": "heldout",
+      "path": "generated/tr-benign-20752111-219933.jsonl",
+      "eventCount": 200,
+      "sha256": "8b9b79517c8bdeb08b7433d32c31fb1c1f38a8a6049a4cd772ba07cbd35ca6d0"
+    },
+    {
+      "traceId": "tr-ransomware-20760030-37f6be",
+      "family": "ransomware",
+      "kind": "ransomware_aes_overwrite_slow_p1",
+      "seed": 20760030,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20760030-37f6be.jsonl",
+      "eventCount": 12,
+      "sha256": "f364c122715ba4423e0988f0ede2b71303b00243f94d1c80cc4c7813621df775"
+    },
+    {
+      "traceId": "tr-ransomware-20767949-36f6bc",
+      "family": "ransomware",
+      "kind": "ransomware_aes_overwrite_slow_p2",
+      "seed": 20767949,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20767949-36f6bc.jsonl",
+      "eventCount": 15,
+      "sha256": "6120a416c754839c2347e5e79148b2ec21e158d78cda46389f9fe25505071742"
+    },
+    {
+      "traceId": "tr-ransomware-20775868-3cf6c6",
+      "family": "ransomware",
+      "kind": "ransomware_aes_overwrite_slow_p4",
+      "seed": 20775868,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20775868-3cf6c6.jsonl",
+      "eventCount": 12,
+      "sha256": "4ee542719aacbf16da173590bb70d46349ba088111ce7c9446913a8adb426196"
+    },
+    {
+      "traceId": "tr-ransomware-20783787-b26a25",
+      "family": "ransomware",
+      "kind": "ransomware_aes_overwrite_medium_p1",
+      "seed": 20783787,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20783787-b26a25.jsonl",
+      "eventCount": 21,
+      "sha256": "833f59cc94a7e72be0c76be2f277c49f04d3ab97b98d753d63097e13011ee025"
+    },
+    {
+      "traceId": "tr-ransomware-20791706-b56a2a",
+      "family": "ransomware",
+      "kind": "ransomware_aes_overwrite_medium_p2",
+      "seed": 20791706,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20791706-b56a2a.jsonl",
+      "eventCount": 18,
+      "sha256": "3a2c9a53f8e5b756adeafb169af5e0a99a246f9bf3d6a5d233c0d635d9ffd0b9"
+    },
+    {
+      "traceId": "tr-ransomware-20799625-af6a20",
+      "family": "ransomware",
+      "kind": "ransomware_aes_overwrite_medium_p4",
+      "seed": 20799625,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20799625-af6a20.jsonl",
+      "eventCount": 21,
+      "sha256": "1bb1837088f129bcf7807ad1a413ce8034a74b51ff7b4cdbb220cefbd949fe81"
+    },
+    {
+      "traceId": "tr-ransomware-20807544-7b3e00",
+      "family": "ransomware",
+      "kind": "ransomware_aes_overwrite_fast_p1",
+      "seed": 20807544,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-20807544-7b3e00.jsonl",
+      "eventCount": 24,
+      "sha256": "44d7de07c3877275db8da4a23ac09afec0c77ceacbe8302988ff3dfa5fd84ded"
+    },
+    {
+      "traceId": "tr-ransomware-20815463-7c3e02",
+      "family": "ransomware",
+      "kind": "ransomware_aes_overwrite_fast_p2",
+      "seed": 20815463,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20815463-7c3e02.jsonl",
+      "eventCount": 27,
+      "sha256": "d45249188cd0af977d8410def42a960b67c553ce881bd9bbfa39cb3358db4dd1"
+    },
+    {
+      "traceId": "tr-ransomware-20823382-763df9",
+      "family": "ransomware",
+      "kind": "ransomware_aes_overwrite_fast_p4",
+      "seed": 20823382,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20823382-763df9.jsonl",
+      "eventCount": 24,
+      "sha256": "c9d2f9c2c0deb410f5b9416f8b994c2343085fd77f3921ab3633906e04f86e3c"
+    },
+    {
+      "traceId": "tr-ransomware-20831301-edf00b",
+      "family": "ransomware",
+      "kind": "ransomware_rename_locked_slow_p1",
+      "seed": 20831301,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20831301-edf00b.jsonl",
+      "eventCount": 27,
+      "sha256": "7282353cfe6fddacd3d465d05cc3558f227a135ad78f6795ce6394684f1b9568"
+    },
+    {
+      "traceId": "tr-ransomware-20839220-ecf009",
+      "family": "ransomware",
+      "kind": "ransomware_rename_locked_slow_p2",
+      "seed": 20839220,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20839220-ecf009.jsonl",
+      "eventCount": 24,
+      "sha256": "806391a7af7959f96008b514ffb4b44c698a8a59de7f7b54ff15cb585bdcfa5a"
+    },
+    {
+      "traceId": "tr-ransomware-20847139-eaf006",
+      "family": "ransomware",
+      "kind": "ransomware_rename_locked_slow_p4",
+      "seed": 20847139,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20847139-eaf006.jsonl",
+      "eventCount": 27,
+      "sha256": "584c9420efb01fec183597c9d729c1efa078fc6d5c464e9a45bab5e1017d60dc"
+    },
+    {
+      "traceId": "tr-ransomware-20855058-1ec031",
+      "family": "ransomware",
+      "kind": "ransomware_rename_locked_medium_p1",
+      "seed": 20855058,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-20855058-1ec031.jsonl",
+      "eventCount": 36,
+      "sha256": "56d9c67b30aeeca1f65ec0bb7fa1b5084dedf211819765881579d30867193b17"
+    },
+    {
+      "traceId": "tr-ransomware-20862977-21c036",
+      "family": "ransomware",
+      "kind": "ransomware_rename_locked_medium_p2",
+      "seed": 20862977,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20862977-21c036.jsonl",
+      "eventCount": 39,
+      "sha256": "f0b12164a7c8a9809fbe9ea25fca57dc36301b1bb44d338d164b3623ccacbd3c"
+    },
+    {
+      "traceId": "tr-ransomware-20870896-23c039",
+      "family": "ransomware",
+      "kind": "ransomware_rename_locked_medium_p4",
+      "seed": 20870896,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20870896-23c039.jsonl",
+      "eventCount": 36,
+      "sha256": "8f7c4aa6b7cdfd93987deda8c8cb38dd8631104325cd515fdef617146c498eb7"
+    },
+    {
+      "traceId": "tr-ransomware-20878815-1348dc",
+      "family": "ransomware",
+      "kind": "ransomware_rename_locked_fast_p1",
+      "seed": 20878815,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-20878815-1348dc.jsonl",
+      "eventCount": 51,
+      "sha256": "4b9a6089a0295867e95d2fb146a3ac36e5ba451d598c0d6253e8564832604b73"
+    },
+    {
+      "traceId": "tr-ransomware-20886734-1448dd",
+      "family": "ransomware",
+      "kind": "ransomware_rename_locked_fast_p2",
+      "seed": 20886734,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20886734-1448dd.jsonl",
+      "eventCount": 48,
+      "sha256": "592ee51d054e62756781e2cae24f86de11aed30811de3f9cd6bc9d9483b52386"
+    },
+    {
+      "traceId": "tr-ransomware-20894653-1648e1",
+      "family": "ransomware",
+      "kind": "ransomware_rename_locked_fast_p4",
+      "seed": 20894653,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-20894653-1648e1.jsonl",
+      "eventCount": 51,
+      "sha256": "1b4439b82a061a8a1444c4ff241f9992b6cc0f6580700de57d3f2291878a2377"
+    },
+    {
+      "traceId": "tr-ransomware-20902572-5a409e",
+      "family": "ransomware",
+      "kind": "ransomware_delete_rewrite_slow_p1",
+      "seed": 20902572,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20902572-5a409e.jsonl",
+      "eventCount": 24,
+      "sha256": "2bd899fc19042e755a5f8ff31c2944c75b2b5ddb140346fc88a85ca2b90b3523"
+    },
+    {
+      "traceId": "tr-ransomware-20910491-574099",
+      "family": "ransomware",
+      "kind": "ransomware_delete_rewrite_slow_p2",
+      "seed": 20910491,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20910491-574099.jsonl",
+      "eventCount": 27,
+      "sha256": "0116f63d5057ee5981423006387fe72933fabeddf2c7867acb74b62844edebf9"
+    },
+    {
+      "traceId": "tr-ransomware-20918410-554096",
+      "family": "ransomware",
+      "kind": "ransomware_delete_rewrite_slow_p4",
+      "seed": 20918410,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20918410-554096.jsonl",
+      "eventCount": 24,
+      "sha256": "dfd2d691354f16f85c68aa1e4f851d2e9481fb917aba4616f70c6b73d5856054"
+    },
+    {
+      "traceId": "tr-ransomware-20926329-9c626a",
+      "family": "ransomware",
+      "kind": "ransomware_delete_rewrite_medium_p1",
+      "seed": 20926329,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20926329-9c626a.jsonl",
+      "eventCount": 39,
+      "sha256": "b4bcc54db017b34eadf2b96fd05c8ea0084cbf72e82fa65e007900bb96baa582"
+    },
+    {
+      "traceId": "tr-ransomware-20934248-9d626c",
+      "family": "ransomware",
+      "kind": "ransomware_delete_rewrite_medium_p2",
+      "seed": 20934248,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20934248-9d626c.jsonl",
+      "eventCount": 36,
+      "sha256": "7d5682c35a362288273f68ea9e41f6a55c5944a5f75ea660823c8ae9fb68c7ea"
+    },
+    {
+      "traceId": "tr-ransomware-20942167-976262",
+      "family": "ransomware",
+      "kind": "ransomware_delete_rewrite_medium_p4",
+      "seed": 20942167,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20942167-976262.jsonl",
+      "eventCount": 39,
+      "sha256": "1527457af2d9e801c21f6a6cfb675d1014c40c18c23414ad7c06de1b9f52d471"
+    },
+    {
+      "traceId": "tr-ransomware-20950086-531b0d",
+      "family": "ransomware",
+      "kind": "ransomware_delete_rewrite_fast_p1",
+      "seed": 20950086,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-20950086-531b0d.jsonl",
+      "eventCount": 48,
+      "sha256": "c052a2e0bb3a6b30d9bde7120c15758e6fd36d7f3ade5f5639f8540f741126e1"
+    },
+    {
+      "traceId": "tr-ransomware-20958005-561b11",
+      "family": "ransomware",
+      "kind": "ransomware_delete_rewrite_fast_p2",
+      "seed": 20958005,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20958005-561b11.jsonl",
+      "eventCount": 51,
+      "sha256": "bc753add293f3f70187bbedfd9f3025805c9019f2dd9880c3c959a7a12dde372"
+    },
+    {
+      "traceId": "tr-ransomware-20965924-501b08",
+      "family": "ransomware",
+      "kind": "ransomware_delete_rewrite_fast_p4",
+      "seed": 20965924,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20965924-501b08.jsonl",
+      "eventCount": 48,
+      "sha256": "01647df475396cad7010e6f7f1e037a16a23f68ee85f6ab0e2a4ebb08753c9bb"
+    },
+    {
+      "traceId": "tr-ransomware-20973843-860a55",
+      "family": "ransomware",
+      "kind": "ransomware_ssec_copy_slow_p1",
+      "seed": 20973843,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20973843-860a55.jsonl",
+      "eventCount": 15,
+      "sha256": "e7d60911cb2f52febbfac4af63449139751383deabdbf6dfc88be4f4054f8732"
+    },
+    {
+      "traceId": "tr-ransomware-20981762-830a51",
+      "family": "ransomware",
+      "kind": "ransomware_ssec_copy_slow_p2",
+      "seed": 20981762,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-20981762-830a51.jsonl",
+      "eventCount": 12,
+      "sha256": "e3372e433f93bb274cdf96fefd41cffa77b2b22493bf7758f2067e04cd1020ce"
+    },
+    {
+      "traceId": "tr-ransomware-20989681-890a5a",
+      "family": "ransomware",
+      "kind": "ransomware_ssec_copy_slow_p4",
+      "seed": 20989681,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-20989681-890a5a.jsonl",
+      "eventCount": 15,
+      "sha256": "6cd64a13b43bb29fa86a602e1b511c7b26c9fad70946875fcf36124e9d52ff0e"
+    },
+    {
+      "traceId": "tr-ransomware-20997600-11c526",
+      "family": "ransomware",
+      "kind": "ransomware_ssec_copy_medium_p1",
+      "seed": 20997600,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-20997600-11c526.jsonl",
+      "eventCount": 18,
+      "sha256": "8d5e40dea557fa9dd4724094573333dd7837f5c7831d4bef99692d2c59a8f95f"
+    },
+    {
+      "traceId": "tr-ransomware-21005519-12c528",
+      "family": "ransomware",
+      "kind": "ransomware_ssec_copy_medium_p2",
+      "seed": 21005519,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21005519-12c528.jsonl",
+      "eventCount": 21,
+      "sha256": "114a87d58485a3f33dca49aa2b44eeebd8bbdefa6fe811366c0f03973cdb4d01"
+    },
+    {
+      "traceId": "tr-ransomware-21013438-14c52b",
+      "family": "ransomware",
+      "kind": "ransomware_ssec_copy_medium_p4",
+      "seed": 21013438,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21013438-14c52b.jsonl",
+      "eventCount": 18,
+      "sha256": "4d4578c0536459ccde951977cd5fa8d9abdc3d0ac5ea427633bf7e1e592da9e8"
+    },
+    {
+      "traceId": "tr-ransomware-21021357-a72366",
+      "family": "ransomware",
+      "kind": "ransomware_ssec_copy_fast_p1",
+      "seed": 21021357,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21021357-a72366.jsonl",
+      "eventCount": 27,
+      "sha256": "93cde616dbb180aa3d64cd97355bc55da4831318cbcc03c7fb5c34f57e102b2c"
+    },
+    {
+      "traceId": "tr-ransomware-21029276-aa236a",
+      "family": "ransomware",
+      "kind": "ransomware_ssec_copy_fast_p2",
+      "seed": 21029276,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21029276-aa236a.jsonl",
+      "eventCount": 24,
+      "sha256": "c3e4e3dcfbf79cebf380f9519631716164a828e15a54a156224449ca6bd4eeb8"
+    },
+    {
+      "traceId": "tr-ransomware-21037195-ac236d",
+      "family": "ransomware",
+      "kind": "ransomware_ssec_copy_fast_p4",
+      "seed": 21037195,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21037195-ac236d.jsonl",
+      "eventCount": 27,
+      "sha256": "08dc9b537d6ca28206f60b242b8c3d33961ac986389c0f7d15e11c5bb57029f7"
+    },
+    {
+      "traceId": "tr-ransomware-21045114-fccb35",
+      "family": "ransomware",
+      "kind": "ransomware_external_kms_slow_p1",
+      "seed": 21045114,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21045114-fccb35.jsonl",
+      "eventCount": 12,
+      "sha256": "dec452e70a660c1321bf39ff71896af4d10a5690feea4f244d91deb72a0d7266"
+    },
+    {
+      "traceId": "tr-ransomware-21053033-ffcb39",
+      "family": "ransomware",
+      "kind": "ransomware_external_kms_slow_p2",
+      "seed": 21053033,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21053033-ffcb39.jsonl",
+      "eventCount": 15,
+      "sha256": "5998f870ad80e16643d3bc870f35178ede8dea7917bf5a22e43a87d6b02e87d2"
+    },
+    {
+      "traceId": "tr-ransomware-21060952-f9cb30",
+      "family": "ransomware",
+      "kind": "ransomware_external_kms_slow_p4",
+      "seed": 21060952,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21060952-f9cb30.jsonl",
+      "eventCount": 12,
+      "sha256": "fd427baaaa4a8d568034f011f5254604c2855e5d18b583ba3aabf777b64c4e11"
+    },
+    {
+      "traceId": "tr-ransomware-21068871-ea5217",
+      "family": "ransomware",
+      "kind": "ransomware_external_kms_medium_p1",
+      "seed": 21068871,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21068871-ea5217.jsonl",
+      "eventCount": 21,
+      "sha256": "c383c4b50c17dfd7b3e1be59a3a8e6119bdd0d7371f2fc0c8308f289469ce9bb"
+    },
+    {
+      "traceId": "tr-ransomware-21076790-e95215",
+      "family": "ransomware",
+      "kind": "ransomware_external_kms_medium_p2",
+      "seed": 21076790,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21076790-e95215.jsonl",
+      "eventCount": 18,
+      "sha256": "cdc632ede86beed454edce4dd81adb312102c3b6eb4ae2fac470596eae925c32"
+    },
+    {
+      "traceId": "tr-ransomware-21084709-ef521f",
+      "family": "ransomware",
+      "kind": "ransomware_external_kms_medium_p4",
+      "seed": 21084709,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21084709-ef521f.jsonl",
+      "eventCount": 21,
+      "sha256": "73b8ab1b970dfcc769fbaeeaee3d42adce875a513900b9cd152ff5e75b5f0c3e"
+    },
+    {
+      "traceId": "tr-ransomware-21092628-309906",
+      "family": "ransomware",
+      "kind": "ransomware_external_kms_fast_p1",
+      "seed": 21092628,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21092628-309906.jsonl",
+      "eventCount": 24,
+      "sha256": "743b8752a7d01d304b25949b09d561d0819d9ea05c5a7da0e430d7dcdf34420f"
+    },
+    {
+      "traceId": "tr-ransomware-21100547-2d9901",
+      "family": "ransomware",
+      "kind": "ransomware_external_kms_fast_p2",
+      "seed": 21100547,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21100547-2d9901.jsonl",
+      "eventCount": 27,
+      "sha256": "4a3c62eb5ac50373db1c93881ec7ef4cec7ec79eb926f04c7de7237e0cefc115"
+    },
+    {
+      "traceId": "tr-ransomware-21108466-33990a",
+      "family": "ransomware",
+      "kind": "ransomware_external_kms_fast_p4",
+      "seed": 21108466,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21108466-33990a.jsonl",
+      "eventCount": 24,
+      "sha256": "6e7b179d26fb059c43eb73c73fdc971a94cf832892df410f85d9a50c72aeed7b"
+    },
+    {
+      "traceId": "tr-ransomware-21116385-ef597f",
+      "family": "ransomware",
+      "kind": "ransomware_variant_aes_overwrite_medium_p1_none",
+      "seed": 21116385,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21116385-ef597f.jsonl",
+      "eventCount": 21,
+      "sha256": "80d81d88dceb1701c2c163a40c6263efda1c1ffdead8fbcaef1c5e41e6ccb370"
+    },
+    {
+      "traceId": "tr-ransomware-21124304-9ca20e",
+      "family": "ransomware",
+      "kind": "ransomware_variant_rename_locked_fast_p2_suspend_versioning",
+      "seed": 21124304,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21124304-9ca20e.jsonl",
+      "eventCount": 49,
+      "sha256": "cf2e3bbba0b272ac69fe4d8fe39bd09ca9a5be99478499928ee0a56f8b2c884d"
+    },
+    {
+      "traceId": "tr-ransomware-21132223-bec166",
+      "family": "ransomware",
+      "kind": "ransomware_variant_delete_rewrite_slow_p4_purge_versions",
+      "seed": 21132223,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21132223-bec166.jsonl",
+      "eventCount": 30,
+      "sha256": "cbf2189b6e7687b7d5e11b16965dde0d9545d2e0a6d458bcc7887226ca4ac409"
+    },
+    {
+      "traceId": "tr-ransomware-21140142-4f53da",
+      "family": "ransomware",
+      "kind": "ransomware_variant_ssec_copy_medium_p8_lifecycle_1d",
+      "seed": 21140142,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21140142-4f53da.jsonl",
+      "eventCount": 19,
+      "sha256": "0c027359d25ba3993374eb9ed994c4ad14e96d983a05ae0a0de0e34319ccf17e"
+    },
+    {
+      "traceId": "tr-ransomware-21148061-4080ff",
+      "family": "ransomware",
+      "kind": "ransomware_variant_external_kms_fast_p1_none",
+      "seed": 21148061,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21148061-4080ff.jsonl",
+      "eventCount": 27,
+      "sha256": "b0c88583e4f64b06b93c1ec01c4e88bf184b95040cbeb722dbcae119e61200ef"
+    },
+    {
+      "traceId": "tr-ransomware-21155980-84e3e4",
+      "family": "ransomware",
+      "kind": "ransomware_variant_aes_overwrite_slow_p2_suspend_versioning",
+      "seed": 21155980,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21155980-84e3e4.jsonl",
+      "eventCount": 13,
+      "sha256": "29385a764cb5678e903413867041d02f5ec9b035292cec4c057e64f18701b60b"
+    },
+    {
+      "traceId": "tr-ransomware-21163899-77e933",
+      "family": "ransomware",
+      "kind": "ransomware_variant_rename_locked_medium_p4_purge_versions",
+      "seed": 21163899,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21163899-77e933.jsonl",
+      "eventCount": 42,
+      "sha256": "c9422be16bbc87619573870b66d9b3a7d73cbc2947c0abeba1d4db25356e5761"
+    },
+    {
+      "traceId": "tr-ransomware-21171818-2799f3",
+      "family": "ransomware",
+      "kind": "ransomware_variant_delete_rewrite_fast_p8_lifecycle_1d",
+      "seed": 21171818,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21171818-2799f3.jsonl",
+      "eventCount": 49,
+      "sha256": "4125094ea26f01bb66ecf386d00951ab739aae174897b1810c4e139c9ab6ee56"
+    },
+    {
+      "traceId": "tr-ransomware-21179737-a57750",
+      "family": "ransomware",
+      "kind": "ransomware_variant_ssec_copy_slow_p1_none",
+      "seed": 21179737,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21179737-a57750.jsonl",
+      "eventCount": 15,
+      "sha256": "b7d1dcb32f66962c6b2750ab2d26b3e6c6ee16e24517a949e72dc37a9428230d"
+    },
+    {
+      "traceId": "tr-ransomware-21187656-9bf74a",
+      "family": "ransomware",
+      "kind": "ransomware_variant_external_kms_medium_p2_suspend_versioning",
+      "seed": 21187656,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21187656-9bf74a.jsonl",
+      "eventCount": 19,
+      "sha256": "b2c46843328668d1e097ad71323d690216b0a78e962e7c1540b3eeeb81128f6a"
+    },
+    {
+      "traceId": "tr-ransomware-21195575-fa40b5",
+      "family": "ransomware",
+      "kind": "ransomware_variant_aes_overwrite_fast_p4_purge_versions",
+      "seed": 21195575,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21195575-fa40b5.jsonl",
+      "eventCount": 30,
+      "sha256": "2f813d0de3f2d244394aaed1c33f7af72265cee5a047c3512ecbce29d299f6ab"
+    },
+    {
+      "traceId": "tr-ransomware-21203494-f3253a",
+      "family": "ransomware",
+      "kind": "ransomware_variant_rename_locked_slow_p8_lifecycle_1d",
+      "seed": 21203494,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21203494-f3253a.jsonl",
+      "eventCount": 25,
+      "sha256": "94b908a42e3962ca5debe4b0e553bd412cb504d8b126df11bd5fc3107af89871"
+    },
+    {
+      "traceId": "tr-ransomware-21211413-16c11c",
+      "family": "ransomware",
+      "kind": "ransomware_variant_delete_rewrite_medium_p1_none",
+      "seed": 21211413,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21211413-16c11c.jsonl",
+      "eventCount": 39,
+      "sha256": "400e9967c9745d6effa29c40ef632552a7b967abd1ea1555ed5ec6dfe9d24f10"
+    },
+    {
+      "traceId": "tr-ransomware-21219332-6da798",
+      "family": "ransomware",
+      "kind": "ransomware_variant_ssec_copy_fast_p2_suspend_versioning",
+      "seed": 21219332,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21219332-6da798.jsonl",
+      "eventCount": 25,
+      "sha256": "81d832dc667f092b6a5832567a785cf6d8e843937a3d7a45e488583b5ab2f1f6"
+    },
+    {
+      "traceId": "tr-ransomware-21227251-577656",
+      "family": "ransomware",
+      "kind": "ransomware_variant_external_kms_slow_p4_purge_versions",
+      "seed": 21227251,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21227251-577656.jsonl",
+      "eventCount": 18,
+      "sha256": "69798c248bcc0b29aa98b0ca58fb073a6543af9e2833931522b1cf7a310f6df8"
+    },
+    {
+      "traceId": "tr-ransomware-21235170-61e2ba",
+      "family": "ransomware",
+      "kind": "ransomware_variant_aes_overwrite_medium_p8_lifecycle_1d",
+      "seed": 21235170,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21235170-61e2ba.jsonl",
+      "eventCount": 19,
+      "sha256": "fa9167aea9d4253b96d4cafd82df00e04fc0a7f12372894248989aa6923880c1"
+    },
+    {
+      "traceId": "tr-ransomware-21243089-cbf4cc",
+      "family": "ransomware",
+      "kind": "ransomware_variant_rename_locked_fast_p1_none",
+      "seed": 21243089,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21243089-cbf4cc.jsonl",
+      "eventCount": 51,
+      "sha256": "70560fe83137fe9e8c5d7f643a62a179119a39f2939c7e36b5da69c6f7a16dac"
+    },
+    {
+      "traceId": "tr-ransomware-21251008-9c696e",
+      "family": "ransomware",
+      "kind": "ransomware_variant_delete_rewrite_slow_p2_suspend_versioning",
+      "seed": 21251008,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21251008-9c696e.jsonl",
+      "eventCount": 25,
+      "sha256": "43e0955255b5bf045737f4bfc23f2b4469df1a2d084d895690fd2655798f3ffc"
+    },
+    {
+      "traceId": "tr-ransomware-21258927-faf3e8",
+      "family": "ransomware",
+      "kind": "ransomware_variant_ssec_copy_medium_p4_purge_versions",
+      "seed": 21258927,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21258927-faf3e8.jsonl",
+      "eventCount": 24,
+      "sha256": "9f5a415bbb838b811a8636b0be9777b1f44f46fa21676cd118b7700b2af22149"
+    },
+    {
+      "traceId": "tr-ransomware-21266846-5d6f47",
+      "family": "ransomware",
+      "kind": "ransomware_variant_external_kms_fast_p8_lifecycle_1d",
+      "seed": 21266846,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21266846-5d6f47.jsonl",
+      "eventCount": 25,
+      "sha256": "5d33a9b6ee69fbd8cfcf99c37d265a940dc991abc43a1bf12ef3da2a7bd50bbf"
+    },
+    {
+      "traceId": "tr-ransomware-21274765-5cca1c",
+      "family": "ransomware",
+      "kind": "ransomware_variant_aes_overwrite_slow_p1_none",
+      "seed": 21274765,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21274765-5cca1c.jsonl",
+      "eventCount": 15,
+      "sha256": "206a46469e00698d7c2d9d09be42ca74afff40df92ecd4756298de7bdb55d4b4"
+    },
+    {
+      "traceId": "tr-ransomware-21282684-1c0578",
+      "family": "ransomware",
+      "kind": "ransomware_variant_rename_locked_medium_p2_suspend_versioning",
+      "seed": 21282684,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21282684-1c0578.jsonl",
+      "eventCount": 37,
+      "sha256": "bb43ccca5c50e08fe2698ed09e896cbaac3ecac48d45e81dc82795745a2bbbab"
+    },
+    {
+      "traceId": "tr-ransomware-21290603-99f8de",
+      "family": "ransomware",
+      "kind": "ransomware_variant_delete_rewrite_fast_p4_purge_versions",
+      "seed": 21290603,
+      "split": "tuning",
+      "path": "generated/tr-ransomware-21290603-99f8de.jsonl",
+      "eventCount": 54,
+      "sha256": "1528b25c0aaa552a787e99a318bf7fb5865c5bbf6d9e417941aaf1b63e8eb4f9"
+    },
+    {
+      "traceId": "tr-ransomware-21298522-da328b",
+      "family": "ransomware",
+      "kind": "ransomware_variant_ssec_copy_slow_p8_lifecycle_1d",
+      "seed": 21298522,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21298522-da328b.jsonl",
+      "eventCount": 13,
+      "sha256": "89528f8f0d8a35bede0879cfe03a8f5b1048fd20ce0768246b8447862de05f34"
+    },
+    {
+      "traceId": "tr-ransomware-21306441-ed680c",
+      "family": "ransomware",
+      "kind": "ransomware_variant_external_kms_medium_p1_none",
+      "seed": 21306441,
+      "split": "heldout",
+      "path": "generated/tr-ransomware-21306441-ed680c.jsonl",
+      "eventCount": 21,
+      "sha256": "af9eae96f96d92cbdf4212daebd9ba48ebe62baf16af74f7c49d126bfbd4178c"
+    },
+    {
+      "traceId": "tr-swarm-21314360-88b2f2",
+      "family": "swarm",
+      "kind": "swarm_external_kms_slow_p2_none",
+      "seed": 21314360,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21314360-88b2f2.jsonl",
+      "eventCount": 12,
+      "sha256": "823f2991a483ec7b71c7c25e1e82abf1d6739d794e38e360560708aa33719e55"
+    },
+    {
+      "traceId": "tr-swarm-21322279-b54571",
+      "family": "swarm",
+      "kind": "swarm_external_kms_slow_p2_suspend_versioning",
+      "seed": 21322279,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21322279-b54571.jsonl",
+      "eventCount": 13,
+      "sha256": "aa5591ed1db4f853b2cd775776462a078b904112f812c7dfd28ed85788cbaf9c"
+    },
+    {
+      "traceId": "tr-swarm-21330198-7e9cf9",
+      "family": "swarm",
+      "kind": "swarm_external_kms_medium_p2_none",
+      "seed": 21330198,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21330198-7e9cf9.jsonl",
+      "eventCount": 12,
+      "sha256": "a237e726d000401e0d212cd5265d433c0f7a06fd79bd82a191e397409587dc0a"
+    },
+    {
+      "traceId": "tr-swarm-21338117-a45b1c",
+      "family": "swarm",
+      "kind": "swarm_external_kms_medium_p2_suspend_versioning",
+      "seed": 21338117,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21338117-a45b1c.jsonl",
+      "eventCount": 13,
+      "sha256": "c1065339cf41ffc17c2977f9a4d407055acc9e9dbbc9b4ceb8a714e8e6f74749"
+    },
+    {
+      "traceId": "tr-swarm-21346036-c8ad4c",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_slow_p2_none",
+      "seed": 21346036,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21346036-c8ad4c.jsonl",
+      "eventCount": 12,
+      "sha256": "aaf4a4f6eabb880bada875e0986bfef6e25e062c8c2a245ccfa16999a5d98498"
+    },
+    {
+      "traceId": "tr-swarm-21353955-80aefc",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_slow_p2_suspend_versioning",
+      "seed": 21353955,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21353955-80aefc.jsonl",
+      "eventCount": 13,
+      "sha256": "1c3784cdc23e8bc2b9d2191d310cc4dfbda7ebe421976ca7f92df8cea92283a5"
+    },
+    {
+      "traceId": "tr-swarm-21361874-8246d7",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_medium_p2_none",
+      "seed": 21361874,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21361874-8246d7.jsonl",
+      "eventCount": 12,
+      "sha256": "f0881839219af66cf1e61f267de7477de99342d9c82964d83a7281cbbf296bff"
+    },
+    {
+      "traceId": "tr-swarm-21369793-a0f7e3",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_medium_p2_suspend_versioning",
+      "seed": 21369793,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21369793-a0f7e3.jsonl",
+      "eventCount": 13,
+      "sha256": "0118ad929094b783d75490bc0f1f810a96cbcd7b097f57838ae78b73fce22391"
+    },
+    {
+      "traceId": "tr-swarm-21377712-78834d",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_slow_p2_none",
+      "seed": 21377712,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21377712-78834d.jsonl",
+      "eventCount": 12,
+      "sha256": "0fe995ce84f0b3800b07fc91b12871712db8cb6dc0a3fc827ef74155e29cc8ac"
+    },
+    {
+      "traceId": "tr-swarm-21385631-b2911c",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_slow_p2_suspend_versioning",
+      "seed": 21385631,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21385631-b2911c.jsonl",
+      "eventCount": 13,
+      "sha256": "a982d4bb6cecdb82b464ede550ee7ffa7cc9f8fe725071ec875580d764275f16"
+    },
+    {
+      "traceId": "tr-swarm-21393550-6b9143",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_medium_p2_none",
+      "seed": 21393550,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21393550-6b9143.jsonl",
+      "eventCount": 12,
+      "sha256": "1914c7c302aa0db4c3e712ca00ca90ef170109687d42698248228f3c9af337da"
+    },
+    {
+      "traceId": "tr-swarm-21401469-6fbfe6",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_medium_p2_suspend_versioning",
+      "seed": 21401469,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21401469-6fbfe6.jsonl",
+      "eventCount": 13,
+      "sha256": "201be45b73b5c8719e21711ac511169b0f2f110c951443e66a7544ed64335d49"
+    },
+    {
+      "traceId": "tr-swarm-21409388-19c7be",
+      "family": "swarm",
+      "kind": "swarm_external_kms_slow_p4_none",
+      "seed": 21409388,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21409388-19c7be.jsonl",
+      "eventCount": 18,
+      "sha256": "7ce9b71e9f3868baad76633332a7767025fca2139a0948fb962d0e68940b577a"
+    },
+    {
+      "traceId": "tr-swarm-21417307-1d0e7e",
+      "family": "swarm",
+      "kind": "swarm_external_kms_slow_p4_suspend_versioning",
+      "seed": 21417307,
+      "split": "tuning",
+      "path": "generated/tr-swarm-21417307-1d0e7e.jsonl",
+      "eventCount": 19,
+      "sha256": "b17be2dd4146ef091da248a22f5b01a49ed4282efdcd39747e7d6e91efdf5a69"
+    },
+    {
+      "traceId": "tr-swarm-21425226-225649",
+      "family": "swarm",
+      "kind": "swarm_external_kms_medium_p4_none",
+      "seed": 21425226,
+      "split": "tuning",
+      "path": "generated/tr-swarm-21425226-225649.jsonl",
+      "eventCount": 18,
+      "sha256": "1645aa077e965fc97619116a91652517eedde959e984347fb18c5fa77e2ca7ce"
+    },
+    {
+      "traceId": "tr-swarm-21433145-2316c5",
+      "family": "swarm",
+      "kind": "swarm_external_kms_medium_p4_suspend_versioning",
+      "seed": 21433145,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21433145-2316c5.jsonl",
+      "eventCount": 19,
+      "sha256": "c2d71a0e15e4a49bfaaa3e0c23f26dedc6d5d85ef99fed18532b5c405e946c45"
+    },
+    {
+      "traceId": "tr-swarm-21441064-39fee5",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_slow_p4_none",
+      "seed": 21441064,
+      "split": "tuning",
+      "path": "generated/tr-swarm-21441064-39fee5.jsonl",
+      "eventCount": 18,
+      "sha256": "99604308b3c7e49e0a3bd8220ccff1f00a38a6572ccafa52c99cac8a552df9c1"
+    },
+    {
+      "traceId": "tr-swarm-21448983-5d2a6c",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_slow_p4_suspend_versioning",
+      "seed": 21448983,
+      "split": "tuning",
+      "path": "generated/tr-swarm-21448983-5d2a6c.jsonl",
+      "eventCount": 19,
+      "sha256": "b65d1ba2d9715f2b522f882d3e93c1c6b8d7ddc71e574d9b13ccf8860e8baf94"
+    },
+    {
+      "traceId": "tr-swarm-21456902-ff4bb9",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_medium_p4_none",
+      "seed": 21456902,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21456902-ff4bb9.jsonl",
+      "eventCount": 18,
+      "sha256": "643920e450dbeb601e15a5ec965ab76cea9b4a86516c0eae39b30f8f73bb39e6"
+    },
+    {
+      "traceId": "tr-swarm-21464821-e3942b",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_medium_p4_suspend_versioning",
+      "seed": 21464821,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21464821-e3942b.jsonl",
+      "eventCount": 19,
+      "sha256": "d3fea4c939689f10a783e6829bfb062610cba68bd988e1220ef4468dc71a71b2"
+    },
+    {
+      "traceId": "tr-swarm-21472740-fe445b",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_slow_p4_none",
+      "seed": 21472740,
+      "split": "tuning",
+      "path": "generated/tr-swarm-21472740-fe445b.jsonl",
+      "eventCount": 18,
+      "sha256": "5ad1810c5ca12e74d9b03ae8e59a81ee35a357ac529a6edf65a8ab6d56c8c768"
+    },
+    {
+      "traceId": "tr-swarm-21480659-10afd8",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_slow_p4_suspend_versioning",
+      "seed": 21480659,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21480659-10afd8.jsonl",
+      "eventCount": 19,
+      "sha256": "875bb6f856ff23c0f40f8a2ea37a850e227cdd546c682d360513c7d9bdf81d7e"
+    },
+    {
+      "traceId": "tr-swarm-21488578-b6bfb6",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_medium_p4_none",
+      "seed": 21488578,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21488578-b6bfb6.jsonl",
+      "eventCount": 18,
+      "sha256": "b0e0f7e3a8b11dea7b63790ada936de8d9b1ee143d82c2dfdf0c985bd712a08b"
+    },
+    {
+      "traceId": "tr-swarm-21496497-5441f3",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_medium_p4_suspend_versioning",
+      "seed": 21496497,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21496497-5441f3.jsonl",
+      "eventCount": 19,
+      "sha256": "63eaf013f8f32719b6b47bc03a9b75ac40e3ec9b705cae440e2dbbe251ee1f47"
+    },
+    {
+      "traceId": "tr-swarm-21504416-42db64",
+      "family": "swarm",
+      "kind": "swarm_external_kms_slow_p8_none",
+      "seed": 21504416,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21504416-42db64.jsonl",
+      "eventCount": 24,
+      "sha256": "51c168be107d3211230c8000f46dfb7f79de063bca78a94f1f1206b3aac308b1"
+    },
+    {
+      "traceId": "tr-swarm-21512335-f55f6a",
+      "family": "swarm",
+      "kind": "swarm_external_kms_slow_p8_suspend_versioning",
+      "seed": 21512335,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21512335-f55f6a.jsonl",
+      "eventCount": 25,
+      "sha256": "730c24c9f380bf3ebec0e8ab3e7da9dce8cf462d3c6ad9a1de999e3796af40a3"
+    },
+    {
+      "traceId": "tr-swarm-21520254-66e219",
+      "family": "swarm",
+      "kind": "swarm_external_kms_medium_p8_none",
+      "seed": 21520254,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21520254-66e219.jsonl",
+      "eventCount": 24,
+      "sha256": "a6e7d03c1f436a16da79f6ef3345e02dfed50cd2a977276252b8b58b3ede3f17"
+    },
+    {
+      "traceId": "tr-swarm-21528173-b230a2",
+      "family": "swarm",
+      "kind": "swarm_external_kms_medium_p8_suspend_versioning",
+      "seed": 21528173,
+      "split": "tuning",
+      "path": "generated/tr-swarm-21528173-b230a2.jsonl",
+      "eventCount": 25,
+      "sha256": "241cc66d4c0b331acdf6c0c56f1c0c1acc89e83063905f3f00bf4952f0336497"
+    },
+    {
+      "traceId": "tr-swarm-21536092-bc1239",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_slow_p8_none",
+      "seed": 21536092,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21536092-bc1239.jsonl",
+      "eventCount": 24,
+      "sha256": "62e2e4fbc1b47d58b5fefa4fd4da97a32b00fa57e17b1f5c7ca17e5e8f9c2d95"
+    },
+    {
+      "traceId": "tr-swarm-21544011-4ddf88",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_slow_p8_suspend_versioning",
+      "seed": 21544011,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21544011-4ddf88.jsonl",
+      "eventCount": 25,
+      "sha256": "ea71dd2e761725b933457f49fc4a49d958f3708571e5e1366a9ad64796ebd079"
+    },
+    {
+      "traceId": "tr-swarm-21551930-946ec5",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_medium_p8_none",
+      "seed": 21551930,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21551930-946ec5.jsonl",
+      "eventCount": 24,
+      "sha256": "a43bd577353ca4705b5ab4ea5d0cb59c626a650f276a5bbea74a6dddbe061cc4"
+    },
+    {
+      "traceId": "tr-swarm-21559849-ccd8c6",
+      "family": "swarm",
+      "kind": "swarm_aes_overwrite_medium_p8_suspend_versioning",
+      "seed": 21559849,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21559849-ccd8c6.jsonl",
+      "eventCount": 25,
+      "sha256": "5ab6659e762639974746f5e410b477ab1ddfbc6cb898e9bde547880704b3c38d"
+    },
+    {
+      "traceId": "tr-swarm-21567768-19164b",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_slow_p8_none",
+      "seed": 21567768,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21567768-19164b.jsonl",
+      "eventCount": 24,
+      "sha256": "059071991cc003e52c8d7723f93a1cef52337305bf858459c34b902751141bc6"
+    },
+    {
+      "traceId": "tr-swarm-21575687-db0840",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_slow_p8_suspend_versioning",
+      "seed": 21575687,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21575687-db0840.jsonl",
+      "eventCount": 25,
+      "sha256": "f4dfe9a3e9ebb10bba26743de483b785916071c20474f51add2eca91b86279ab"
+    },
+    {
+      "traceId": "tr-swarm-21583606-ef8587",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_medium_p8_none",
+      "seed": 21583606,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21583606-ef8587.jsonl",
+      "eventCount": 24,
+      "sha256": "091b4567d54011b2681e42ecf411e871359047ad090a6b8125e98d1049e51169"
+    },
+    {
+      "traceId": "tr-swarm-21591525-6dc8d9",
+      "family": "swarm",
+      "kind": "swarm_ssec_copy_medium_p8_suspend_versioning",
+      "seed": 21591525,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21591525-6dc8d9.jsonl",
+      "eventCount": 25,
+      "sha256": "eb283c041573ae876c759f8afd3a964da83bae37219058d5677f797a7de19d41"
+    },
+    {
+      "traceId": "tr-swarm-21599444-c8372a",
+      "family": "swarm",
+      "kind": "swarm_variant_external_kms_slow_p8_0",
+      "seed": 21599444,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21599444-c8372a.jsonl",
+      "eventCount": 28,
+      "sha256": "ca9103c3123ebec0546e70dab7de8de4df2c113a51076539d255531c338f0805"
+    },
+    {
+      "traceId": "tr-swarm-21607363-c73729",
+      "family": "swarm",
+      "kind": "swarm_variant_external_kms_slow_p8_1",
+      "seed": 21607363,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21607363-c73729.jsonl",
+      "eventCount": 24,
+      "sha256": "10cee803c5dd5fc7b2d9696ec49d4336ab804bb0b5825ef9d9f34dda40276892"
+    },
+    {
+      "traceId": "tr-swarm-21615282-c63727",
+      "family": "swarm",
+      "kind": "swarm_variant_external_kms_slow_p8_2",
+      "seed": 21615282,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21615282-c63727.jsonl",
+      "eventCount": 27,
+      "sha256": "e297129e0270f8a957a1226c8d95a8e1713082de6a2b43c7f6a4f360d42ae015"
+    },
+    {
+      "traceId": "tr-swarm-21623201-c53726",
+      "family": "swarm",
+      "kind": "swarm_variant_external_kms_slow_p8_3",
+      "seed": 21623201,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21623201-c53726.jsonl",
+      "eventCount": 25,
+      "sha256": "5a5f1c83e9f19bf618ea186eb3fb0dd4f16fa491fb42ab91e2bd73d80d88a66b"
+    },
+    {
+      "traceId": "tr-swarm-21631120-c43724",
+      "family": "swarm",
+      "kind": "swarm_variant_external_kms_slow_p8_4",
+      "seed": 21631120,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21631120-c43724.jsonl",
+      "eventCount": 27,
+      "sha256": "b0f0249288307ea95998fa3857f6a6c3c86e0ef7ffffd830f50d5b6653edc3c3"
+    },
+    {
+      "traceId": "tr-swarm-21639039-c33723",
+      "family": "swarm",
+      "kind": "swarm_variant_external_kms_slow_p8_5",
+      "seed": 21639039,
+      "split": "heldout",
+      "path": "generated/tr-swarm-21639039-c33723.jsonl",
+      "eventCount": 24,
+      "sha256": "95aa4ed382512fcfa5fec4249b888f0b6845a8260e3164df3838e8941a4b2737"
+    },
+    {
+      "traceId": "tr-mixed-21646958-d0f125",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_medium_p1_1to5",
+      "seed": 21646958,
+      "split": "tuning",
+      "path": "generated/tr-mixed-21646958-d0f125.jsonl",
+      "eventCount": 120,
+      "sha256": "a33e92c42fffb2da129adfd95d6effca520145b79b5b6b6a79313894d7c6fe0c"
+    },
+    {
+      "traceId": "tr-mixed-21654877-1370ad",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_medium_p2_1to5",
+      "seed": 21654877,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21654877-1370ad.jsonl",
+      "eventCount": 120,
+      "sha256": "2b7d9def82ea72432a9b8088d32c919fe8a4340ec74c6853ad8b43b0bf29e34b"
+    },
+    {
+      "traceId": "tr-mixed-21662796-3cd65c",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_fast_p1_1to5",
+      "seed": 21662796,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21662796-3cd65c.jsonl",
+      "eventCount": 123,
+      "sha256": "b7989c4605008a4a6806e362b9a02794d86d0e1d9eebd2b26c9e99b6211e58d4"
+    },
+    {
+      "traceId": "tr-mixed-21670715-7bb30b",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_fast_p2_1to5",
+      "seed": 21670715,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21670715-7bb30b.jsonl",
+      "eventCount": 120,
+      "sha256": "a449b0d741dd1f05ebdae0a1cf7ec691c5397d6dda65101329b35237963070bf"
+    },
+    {
+      "traceId": "tr-mixed-21678634-6b4e92",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_medium_p1_1to5",
+      "seed": 21678634,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21678634-6b4e92.jsonl",
+      "eventCount": 140,
+      "sha256": "f21a64033a7e29258908dfc442a4e154e741d0b546a910baac30b31deb2e9ed3"
+    },
+    {
+      "traceId": "tr-mixed-21686553-95f189",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_medium_p2_1to5",
+      "seed": 21686553,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21686553-95f189.jsonl",
+      "eventCount": 143,
+      "sha256": "59443e285775ebfc9f22c020ba6fbcab81822f73dc9252d4d4747029892096b2"
+    },
+    {
+      "traceId": "tr-mixed-21694472-1af47a",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_fast_p1_1to5",
+      "seed": 21694472,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21694472-1af47a.jsonl",
+      "eventCount": 140,
+      "sha256": "d8ba6c00453363efc05cb31d2e3f46bf84b42094b881822f803471ac2a9f69a3"
+    },
+    {
+      "traceId": "tr-mixed-21702391-7a1686",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_fast_p2_1to5",
+      "seed": 21702391,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21702391-7a1686.jsonl",
+      "eventCount": 140,
+      "sha256": "73840202a9852b27fc0acda52e11745ca981b977bd37b17c15364bbcb4cd70ad"
+    },
+    {
+      "traceId": "tr-mixed-21710310-ec3783",
+      "family": "mixed",
+      "kind": "mixed_external_kms_medium_p1_1to5",
+      "seed": 21710310,
+      "split": "tuning",
+      "path": "generated/tr-mixed-21710310-ec3783.jsonl",
+      "eventCount": 123,
+      "sha256": "4fa85beaf45cf74562fdb455aee357de134f9d5b0204acaeadafc472e6e3c6b6"
+    },
+    {
+      "traceId": "tr-mixed-21718229-afe790",
+      "family": "mixed",
+      "kind": "mixed_external_kms_medium_p2_1to5",
+      "seed": 21718229,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21718229-afe790.jsonl",
+      "eventCount": 120,
+      "sha256": "4f5c8edb90aad553559593cc809148ca42a6b96031bff3f8948af04c68991c03"
+    },
+    {
+      "traceId": "tr-mixed-21726148-25270d",
+      "family": "mixed",
+      "kind": "mixed_external_kms_fast_p1_1to5",
+      "seed": 21726148,
+      "split": "tuning",
+      "path": "generated/tr-mixed-21726148-25270d.jsonl",
+      "eventCount": 120,
+      "sha256": "ffd1da579569c148a6214cdcc0ef88c53cf5e27c351284868b85a038d84f8beb"
+    },
+    {
+      "traceId": "tr-mixed-21734067-a7f1ee",
+      "family": "mixed",
+      "kind": "mixed_external_kms_fast_p2_1to5",
+      "seed": 21734067,
+      "split": "tuning",
+      "path": "generated/tr-mixed-21734067-a7f1ee.jsonl",
+      "eventCount": 123,
+      "sha256": "4e16b34bafad49fab605832cf5b067a5c7022aa4646bd9dd910b92bd08b8f21e"
+    },
+    {
+      "traceId": "tr-mixed-21741986-aba529",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_medium_p1_1to20",
+      "seed": 21741986,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21741986-aba529.jsonl",
+      "eventCount": 420,
+      "sha256": "ec38b2450f3f539c672a49b1ac388a1d2737b0128d4ad974f394b7a8d595c355"
+    },
+    {
+      "traceId": "tr-mixed-21749905-7963f4",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_medium_p2_1to20",
+      "seed": 21749905,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21749905-7963f4.jsonl",
+      "eventCount": 420,
+      "sha256": "73f597c055544ce395bbc7b769bfa8c459f8865b144f128e247cab527824c9ed"
+    },
+    {
+      "traceId": "tr-mixed-21757824-16801f",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_fast_p1_1to20",
+      "seed": 21757824,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21757824-16801f.jsonl",
+      "eventCount": 423,
+      "sha256": "b554bc183c49a62f346b1f92516b0cf8c88323fdb52c105918387e03a7889ca8"
+    },
+    {
+      "traceId": "tr-mixed-21765743-58d90b",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_fast_p2_1to20",
+      "seed": 21765743,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21765743-58d90b.jsonl",
+      "eventCount": 420,
+      "sha256": "e8f52980e4ed50d68cf2a75a8d1ca2f0bc17d842d9e16683ae089ae9ae0bb5f0"
+    },
+    {
+      "traceId": "tr-mixed-21773662-94b79a",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_medium_p1_1to20",
+      "seed": 21773662,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21773662-94b79a.jsonl",
+      "eventCount": 440,
+      "sha256": "a88e7197dfeda7dd9cb6005678fa07f9a9f0f8c42e5320542b51bc929a63870a"
+    },
+    {
+      "traceId": "tr-mixed-21781581-d23e22",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_medium_p2_1to20",
+      "seed": 21781581,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21781581-d23e22.jsonl",
+      "eventCount": 443,
+      "sha256": "8ab1a897ab0543dcc2eb88f0e2ffbaa5c07db0d2e3cc30fd53780f496709a73d"
+    },
+    {
+      "traceId": "tr-mixed-21789500-57e8b5",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_fast_p1_1to20",
+      "seed": 21789500,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21789500-57e8b5.jsonl",
+      "eventCount": 440,
+      "sha256": "e848a5cbd5c815f96401fd7ab2739ba7605712d8918e0298071865d37c2b6678"
+    },
+    {
+      "traceId": "tr-mixed-21797419-a7736d",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_fast_p2_1to20",
+      "seed": 21797419,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21797419-a7736d.jsonl",
+      "eventCount": 440,
+      "sha256": "a2f4df1c94f0e72d0223c04ec65e1fb5b94995a25d7c4b1cd686709741a45e4e"
+    },
+    {
+      "traceId": "tr-mixed-21805338-a575c0",
+      "family": "mixed",
+      "kind": "mixed_external_kms_medium_p1_1to20",
+      "seed": 21805338,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21805338-a575c0.jsonl",
+      "eventCount": 423,
+      "sha256": "c92b02c1ad7cf748003ce6710810936b5b9d8ac1603a696ab3aaa3eac84e9902"
+    },
+    {
+      "traceId": "tr-mixed-21813257-268154",
+      "family": "mixed",
+      "kind": "mixed_external_kms_medium_p2_1to20",
+      "seed": 21813257,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21813257-268154.jsonl",
+      "eventCount": 420,
+      "sha256": "5e677d10e3c1c6d595ac63877acdec84d9de9bed0fe2b39b5b2f7298988ce7bb"
+    },
+    {
+      "traceId": "tr-mixed-21821176-f768ef",
+      "family": "mixed",
+      "kind": "mixed_external_kms_fast_p1_1to20",
+      "seed": 21821176,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21821176-f768ef.jsonl",
+      "eventCount": 420,
+      "sha256": "2534f26ddbd370292b3cc33cb4fe258ccbc238415ea63f798ed1b3e2ce70ca80"
+    },
+    {
+      "traceId": "tr-mixed-21829095-7dce9d",
+      "family": "mixed",
+      "kind": "mixed_external_kms_fast_p2_1to20",
+      "seed": 21829095,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21829095-7dce9d.jsonl",
+      "eventCount": 423,
+      "sha256": "818a62a8af97aa243b01a97d67e49ff97c8f051d28624fbcd6c901ece6d5043e"
+    },
+    {
+      "traceId": "tr-mixed-21837014-e9d479",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_medium_p1_1to100",
+      "seed": 21837014,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21837014-e9d479.jsonl",
+      "eventCount": 2020,
+      "sha256": "6935ea18d0b2dabbe59923893eb3b64925d368d5aaaa27e9b9e4022ad3f28745"
+    },
+    {
+      "traceId": "tr-mixed-21844933-890e51",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_medium_p2_1to100",
+      "seed": 21844933,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21844933-890e51.jsonl",
+      "eventCount": 2020,
+      "sha256": "6d7f94b7a2a10a9e037cb583f9c87112086ff25dd32daeaf3960427ddb76f6de"
+    },
+    {
+      "traceId": "tr-mixed-21852852-522c84",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_fast_p1_1to100",
+      "seed": 21852852,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21852852-522c84.jsonl",
+      "eventCount": 2023,
+      "sha256": "54fc79a8441bdedaf2004dda6396ad60295d14df79402320f826cb6ad8b17bc0"
+    },
+    {
+      "traceId": "tr-mixed-21860771-33f855",
+      "family": "mixed",
+      "kind": "mixed_aes_overwrite_fast_p2_1to100",
+      "seed": 21860771,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21860771-33f855.jsonl",
+      "eventCount": 2020,
+      "sha256": "83e4d5ec9c7efff3004641dff6022e738087baf184ca080673aa9caa157bcb90"
+    },
+    {
+      "traceId": "tr-mixed-21868690-84fcde",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_medium_p1_1to100",
+      "seed": 21868690,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21868690-84fcde.jsonl",
+      "eventCount": 2040,
+      "sha256": "af26b5a208632a5759f9f1fe176e2d722a8189ea90d1f0425d78bc84c425e156"
+    },
+    {
+      "traceId": "tr-mixed-21876609-1f96c7",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_medium_p2_1to100",
+      "seed": 21876609,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21876609-1f96c7.jsonl",
+      "eventCount": 2043,
+      "sha256": "f8ed0d497fa71ad83338cd78b2a3a70efa5b0330372ae388e8155660fb90a534"
+    },
+    {
+      "traceId": "tr-mixed-21884528-72be68",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_fast_p1_1to100",
+      "seed": 21884528,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21884528-72be68.jsonl",
+      "eventCount": 2040,
+      "sha256": "a4df2d689742df537d9dcc0baf3c9abd6cf8d28b0b380f173d95bf3e94a25896"
+    },
+    {
+      "traceId": "tr-mixed-21892447-59eec1",
+      "family": "mixed",
+      "kind": "mixed_rename_locked_fast_p2_1to100",
+      "seed": 21892447,
+      "split": "tuning",
+      "path": "generated/tr-mixed-21892447-59eec1.jsonl",
+      "eventCount": 2040,
+      "sha256": "88437030c4ec025fe56b8b2dc214a00dbcdeeebad2629b3672137f3d3c39ded7"
+    },
+    {
+      "traceId": "tr-mixed-21900366-caa93d",
+      "family": "mixed",
+      "kind": "mixed_external_kms_medium_p1_1to100",
+      "seed": 21900366,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21900366-caa93d.jsonl",
+      "eventCount": 2023,
+      "sha256": "61196a049f9b3e356d71104a559d55f292b960289cf15c8a65112be03c1879b7"
+    },
+    {
+      "traceId": "tr-mixed-21908285-2fc2bd",
+      "family": "mixed",
+      "kind": "mixed_external_kms_medium_p2_1to100",
+      "seed": 21908285,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21908285-2fc2bd.jsonl",
+      "eventCount": 2020,
+      "sha256": "515cc97a40cc208ea62ef0ec5a793e6292e59018734d88950162cac16986ad37"
+    },
+    {
+      "traceId": "tr-mixed-21916204-873486",
+      "family": "mixed",
+      "kind": "mixed_external_kms_fast_p1_1to100",
+      "seed": 21916204,
+      "split": "heldout",
+      "path": "generated/tr-mixed-21916204-873486.jsonl",
+      "eventCount": 2020,
+      "sha256": "9c0520c4b2923efe335b0c09c8ffc4368a39278a8d07b859db34933db51f7eba"
+    }
+  ]
+}

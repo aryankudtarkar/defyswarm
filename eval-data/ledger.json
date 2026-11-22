@@ -1,0 +1,139 @@
+{
+  "generatedAt": "2026-11-22T00:40:00.000Z",
+  "note": "Claims ledger for the Evaluation Lab. Verdicts are limited to the stored runs named below. 'unverified' means this lab did not measure it; it does not mean the claim is false.",
+  "runs": {
+    "fullReplay": "eval-data/results/eval-full-424242-761b9bcc41/results.json",
+    "liveValidation": "eval-data/live-validation.json",
+    "calibration": "eval-data/calibration.json"
+  },
+  "claims": [
+    {
+      "id": "detection-sub-second",
+      "claim": "Detection and containment are sub-second.",
+      "verdict": "supported-in-simulator",
+      "evidence": "Live validation: 4/4 attack runs detected and contained; median MTTC 48 ms, p95 312 ms; median MTTD 1 ms. This is a simulator measurement, not a production latency guarantee.",
+      "source": "eval-data/live-validation.json",
+      "action": "Keep the README wording scoped to measured simulator runs."
+    },
+    {
+      "id": "zero-false-positives-benign-compressed",
+      "claim": "Benign compressed formats (.zip, .jpg, .png, .docx) produce zero false positives.",
+      "verdict": "consistent-not-proven",
+      "evidence": "0 false-positive traces across 162 held-out traces (95% CI upper bound 2.3%) and 0/4 benign live simulator runs. Zero observed is not proof of zero.",
+      "source": "eval-data/results/eval-full-424242-761b9bcc41/results.json",
+      "action": "README must say 'no false positives observed in the evaluation set', not 'zero false positives'."
+    },
+    {
+      "id": "swarm-threshold",
+      "claim": "Swarm correlation catches >= 3 distinct principals within a 120-second window.",
+      "verdict": "contradicted-by-shipped-policy",
+      "evidence": "Shipped data/policies.yaml uses min_principals: 2, window_seconds: 60, flagged_writes: 12. The README claim does not match the shipped configuration.",
+      "source": "data/policies.yaml",
+      "action": "README corrected to 2 principals / 60 seconds / 12 flagged writes."
+    },
+    {
+      "id": "swarm-two-principal",
+      "claim": "Cross-principal correlation catches a 2-principal swarm.",
+      "verdict": "supported-in-simulator",
+      "evidence": "The public storage API path produced 2-principal activity; the product detected and contained it. The incident was raised before cross-principal correlation was the deciding signal, so the correlation component itself is not isolated by this run.",
+      "source": "eval-data/live-validation.json",
+      "action": "Report detection separately from the attribution of the deciding signal."
+    },
+    {
+      "id": "adaptive-canaries",
+      "claim": "Adaptive canaries materially improve detection.",
+      "verdict": "not-demonstrated",
+      "evidence": "D9a (canaries removed) detected 100% of held-out attack traces, identical to D9. Entropy/magic signals carried the detection in this trace set. The canary ablation did not lower detection.",
+      "source": "eval-data/results/eval-full-424242-761b9bcc41/results.json",
+      "action": "Do not claim canaries are load-bearing based on this benchmark; report the null ablation."
+    },
+    {
+      "id": "control-plane-triggers",
+      "claim": "Control-plane hard triggers add detection value.",
+      "verdict": "not-demonstrated",
+      "evidence": "D9b (control-plane triggers removed) detected 100% of held-out attack traces, identical to D9.",
+      "source": "eval-data/results/eval-full-424242-761b9bcc41/results.json",
+      "action": "Report the null ablation; do not attribute the headline result to these triggers."
+    },
+    {
+      "id": "entropy-magic-signals",
+      "claim": "Entropy and magic-byte inspection are load-bearing detection signals.",
+      "verdict": "supported",
+      "evidence": "D9c (entropy/magic neutralised) fell from 100% to 71.4% detection across 162 held-out traces (McNemar p < 0.001 in the ransomware family).",
+      "source": "eval-data/results/eval-full-424242-761b9bcc41/results.json",
+      "action": "Keep this claim, with the stored run cited."
+    },
+    {
+      "id": "bit-for-bit-restore",
+      "claim": "1-Click Restore restores objects bit-for-bit from the vault.",
+      "verdict": "supported-in-simulator",
+      "evidence": "Recovery verification scenario passed its SHA-256 assertion (100% match) in live validation.",
+      "source": "eval-data/live-validation.json",
+      "action": "Scope the claim to the local simulator and the shipped vault adapter."
+    },
+    {
+      "id": "worm-vault-durability",
+      "claim": "The isolated WORM vault guarantees durable, credential-isolated recovery.",
+      "verdict": "unverified",
+      "evidence": "The local adapter models an isolated vault. No external Backblaze B2 or MinIO Object Lock bucket was exercised. Free-tier hosts may sleep or lose data.",
+      "source": "eval-data/live-validation.json",
+      "action": "README must not claim durability on free-tier hosting; add the provider caveat."
+    },
+    {
+      "id": "supabase-vault-target",
+      "claim": "Supabase Storage S3 can serve as a vault/restore target.",
+      "verdict": "contradicted",
+      "evidence": "Supabase Storage S3 does not provide S3 Object Lock or versioning semantics required by the vault and version-purge defenses. It can be a monitored source, not a WORM vault target.",
+      "source": "README.md; docs/eval/LIMITATIONS.md",
+      "action": "README corrected: Supabase is a monitored source, not a vault or versioning target."
+    },
+    {
+      "id": "role-header-auth",
+      "claim": "Role-protected endpoints enforce viewer/operator/admin roles.",
+      "verdict": "overstated",
+      "evidence": "The server reads x-defyswarm-role from the request header and defaults to admin. Any client can set it. This is a demo role switch, not authentication or authorization.",
+      "source": "server.ts parseRole; README.md",
+      "action": "README corrected: the role header is a client-supplied demo control, not authentication."
+    },
+    {
+      "id": "immutable-audit-log",
+      "claim": "The operator audit log is immutable.",
+      "verdict": "overstated",
+      "evidence": "The audit log is an append-only array persisted in data/ledger.json. It is not tamper-evident and can be edited by anyone with filesystem access.",
+      "source": "server/stateStore.ts; data/ledger.json",
+      "action": "README corrected: append-only local ledger, not tamper-proof."
+    },
+    {
+      "id": "zero-latency-data-path",
+      "claim": "Out-of-band operation preserves zero-latency read/write performance.",
+      "verdict": "unverified",
+      "evidence": "The lab measured no application data-path latency. Detection is asynchronous in the simulator, but no production load test was run.",
+      "source": "docs/eval/LIMITATIONS.md",
+      "action": "Do not present zero-latency as a measured result."
+    },
+    {
+      "id": "64kb-sampling",
+      "claim": "Quota-safe 64 KB range sampling inspects content and cryptographic signals.",
+      "verdict": "unverified",
+      "evidence": "The replay traces carry entropy and magic-byte fields directly. The live simulator uses the local adapter. No external S3 range-sampling call was measured.",
+      "source": "docs/eval/TRACE_PROTOCOL.md",
+      "action": "Keep as a design statement, not an evaluated result."
+    },
+    {
+      "id": "ai-classifier-audit",
+      "claim": "AI evasion audits test adaptive canary robustness.",
+      "verdict": "out-of-scope",
+      "evidence": "No Groq API key was used and no classifier audit was run in this evaluation.",
+      "source": "eval-data/results/eval-full-424242-761b9bcc41/results.json",
+      "action": "Do not cite the evaluation lab as evidence for AI classifier performance."
+    },
+    {
+      "id": "baseline-superiority",
+      "claim": "DefySwarm outperforms common legacy approaches.",
+      "verdict": "supported-with-scope",
+      "evidence": "D9 detected 100% [96.7%, 100%] of 112 held-out attack traces vs D4 53.6%, D8 53.6%, D3 58.9%; D9 median files lost 1 vs 18 for D3 and 6 for D8. Baselines are reference implementations, not vendor products.",
+      "source": "eval-data/results/eval-full-424242-761b9bcc41/results.json",
+      "action": "Always state that baselines are reference implementations and that traces are synthetic replay."
+    }
+  ]
+}

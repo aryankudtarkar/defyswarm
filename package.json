@@ -9,7 +9,17 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "eval": "tsx scripts/eval.ts",
+    "eval:gen": "tsx scripts/eval.ts gen",
+    "eval:run": "tsx scripts/eval.ts run",
+    "eval:check": "tsx scripts/eval.ts check",
+    "eval:record": "tsx scripts/eval.ts record",
+    "eval:calibrate": "tsx scripts/eval.ts calibrate",
+    "eval:live": "tsx scripts/eval.ts live",
+    "eval:all": "tsx scripts/eval.ts all",
+    "verify:product": "tsx scripts/verify-product.ts",
+    "test:eval": "tsx --test tests/*.test.ts"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1175.0",

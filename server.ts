@@ -698,6 +698,12 @@ async function startServer() {
     res.json({ ok: true, health: state.getHealthMetrics() });
   });
 
+  // Evaluation Lab: off by default. The route and page exist only with EVAL_LAB=1.
+  if (process.env.EVAL_LAB === '1') {
+    const { mountEvalRoutes } = await import('./eval/server/routes.ts');
+    mountEvalRoutes(app, { port: PORT });
+  }
+
   // Mount Vite middleware in dev or serve built dist/ in production
   if (!isProduction) {
     const { createServer: createViteServer } = await import('vite');

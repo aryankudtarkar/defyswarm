@@ -1,0 +1,34 @@
+# Claims ledger
+
+Generated from `eval-data/ledger.json`. Verdicts are limited to the stored runs named in that file. `unverified` means this lab did not measure the claim; it does not mean the claim is false.
+
+| Claim | Verdict | Evidence | Source | Action |
+| :--- | :--- | :--- | :--- | :--- |
+| Detection and containment are sub-second. | **supported-in-simulator** | Live validation: 4/4 attack runs detected and contained; median MTTC 48 ms, p95 312 ms; median MTTD 1 ms. This is a simulator measurement, not a production latency guarantee. | `eval-data/live-validation.json` | Keep the README wording scoped to measured simulator runs. |
+| Benign compressed formats (.zip, .jpg, .png, .docx) produce zero false positives. | **consistent-not-proven** | 0 false-positive traces across 162 held-out traces (95% CI upper bound 2.3%) and 0/4 benign live simulator runs. Zero observed is not proof of zero. | `eval-data/results/eval-full-424242-761b9bcc41/results.json` | README must say 'no false positives observed in the evaluation set', not 'zero false positives'. |
+| Swarm correlation catches >= 3 distinct principals within a 120-second window. | **contradicted-by-shipped-policy** | Shipped data/policies.yaml uses min_principals: 2, window_seconds: 60, flagged_writes: 12. The README claim does not match the shipped configuration. | `data/policies.yaml` | README corrected to 2 principals / 60 seconds / 12 flagged writes. |
+| Cross-principal correlation catches a 2-principal swarm. | **supported-in-simulator** | The public storage API path produced 2-principal activity; the product detected and contained it. The incident was raised before cross-principal correlation was the deciding signal, so the correlation component itself is not isolated by this run. | `eval-data/live-validation.json` | Report detection separately from the attribution of the deciding signal. |
+| Adaptive canaries materially improve detection. | **not-demonstrated** | D9a (canaries removed) detected 100% of held-out attack traces, identical to D9. Entropy/magic signals carried the detection in this trace set. The canary ablation did not lower detection. | `eval-data/results/eval-full-424242-761b9bcc41/results.json` | Do not claim canaries are load-bearing based on this benchmark; report the null ablation. |
+| Control-plane hard triggers add detection value. | **not-demonstrated** | D9b (control-plane triggers removed) detected 100% of held-out attack traces, identical to D9. | `eval-data/results/eval-full-424242-761b9bcc41/results.json` | Report the null ablation; do not attribute the headline result to these triggers. |
+| Entropy and magic-byte inspection are load-bearing detection signals. | **supported** | D9c (entropy/magic neutralised) fell from 100% to 71.4% detection across 162 held-out traces (McNemar p < 0.001 in the ransomware family). | `eval-data/results/eval-full-424242-761b9bcc41/results.json` | Keep this claim, with the stored run cited. |
+| 1-Click Restore restores objects bit-for-bit from the vault. | **supported-in-simulator** | Recovery verification scenario passed its SHA-256 assertion (100% match) in live validation. | `eval-data/live-validation.json` | Scope the claim to the local simulator and the shipped vault adapter. |
+| The isolated WORM vault guarantees durable, credential-isolated recovery. | **unverified** | The local adapter models an isolated vault. No external Backblaze B2 or MinIO Object Lock bucket was exercised. Free-tier hosts may sleep or lose data. | `eval-data/live-validation.json` | README must not claim durability on free-tier hosting; add the provider caveat. |
+| Supabase Storage S3 can serve as a vault/restore target. | **contradicted** | Supabase Storage S3 does not provide S3 Object Lock or versioning semantics required by the vault and version-purge defenses. It can be a monitored source, not a WORM vault target. | `README.md; docs/eval/LIMITATIONS.md` | README corrected: Supabase is a monitored source, not a vault or versioning target. |
+| Role-protected endpoints enforce viewer/operator/admin roles. | **overstated** | The server reads x-defyswarm-role from the request header and defaults to admin. Any client can set it. This is a demo role switch, not authentication or authorization. | `server.ts parseRole; README.md` | README corrected: the role header is a client-supplied demo control, not authentication. |
+| The operator audit log is immutable. | **overstated** | The audit log is an append-only array persisted in data/ledger.json. It is not tamper-evident and can be edited by anyone with filesystem access. | `server/stateStore.ts; data/ledger.json` | README corrected: append-only local ledger, not tamper-proof. |
+| Out-of-band operation preserves zero-latency read/write performance. | **unverified** | The lab measured no application data-path latency. Detection is asynchronous in the simulator, but no production load test was run. | `docs/eval/LIMITATIONS.md` | Do not present zero-latency as a measured result. |
+| Quota-safe 64 KB range sampling inspects content and cryptographic signals. | **unverified** | The replay traces carry entropy and magic-byte fields directly. The live simulator uses the local adapter. No external S3 range-sampling call was measured. | `docs/eval/TRACE_PROTOCOL.md` | Keep as a design statement, not an evaluated result. |
+| AI evasion audits test adaptive canary robustness. | **out-of-scope** | No Groq API key was used and no classifier audit was run in this evaluation. | `eval-data/results/eval-full-424242-761b9bcc41/results.json` | Do not cite the evaluation lab as evidence for AI classifier performance. |
+| DefySwarm outperforms common legacy approaches. | **supported-with-scope** | D9 detected 100% [96.7%, 100%] of 112 held-out attack traces vs D4 53.6%, D8 53.6%, D3 58.9%; D9 median files lost 1 vs 18 for D3 and 6 for D8. Baselines are reference implementations, not vendor products. | `eval-data/results/eval-full-424242-761b9bcc41/results.json` | Always state that baselines are reference implementations and that traces are synthetic replay. |
+
+## Verdict vocabulary
+
+- **supported** — the stored run directly supports the claim.
+- **supported-in-simulator** — supported by the shipped simulator, not a production deployment.
+- **supported-with-scope** — supported only with the stated scope and caveats.
+- **consistent-not-proven** — observations are consistent with the claim but the sample cannot prove it.
+- **not-demonstrated** — the ablation or data did not show the claimed effect.
+- **overstated** — the mechanism exists but the claim is stronger than the mechanism.
+- **unverified** — this lab did not measure it.
+- **contradicted** / **contradicted-by-shipped-policy** — the claim conflicts with shipped code or configuration.
+- **out-of-scope** — not evaluated by this lab.

@@ -168,6 +168,15 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
               </button>
             );
           })}
+          {import.meta.env.VITE_EVAL_LAB === '1' && (
+            <a
+              href="/eval"
+              className="mt-1 flex h-[34px] w-full items-center gap-2.5 rounded-[7px] px-2.5 type-control text-[#4B5563] transition-colors hover:bg-[#F1F3F5]/80 hover:text-[#111827]"
+            >
+              <FlaskConical className="h-4 w-4 shrink-0 text-[#6B7280]" />
+              <span className="truncate">Evaluation Lab</span>
+            </a>
+          )}
         </div>
       </nav>
 

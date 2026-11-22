@@ -1,0 +1,3 @@
+# Resumable detector outputs from an interrupted run. The committed
+# results.json, scorecard.md, CSVs, and tuning.json are the stored evidence.
+results/*/partial/

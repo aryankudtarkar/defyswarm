@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-11-22T00:30:42.780Z",
+  "note": "Golden product invariants captured from the untouched baseline. Counts are structural; latency and preservation checks are thresholds.",
+  "baselineCommit": "33e19a2",
+  "bootstrap": {
+    "bucketCount": 3,
+    "principalCount": 9,
+    "canaryCount": 10,
+    "policyMode": "active",
+    "incidentCount": 0
+  },
+  "benign": {
+    "incidentCount": 0,
+    "assertionsAllPass": true
+  },
+  "ransomware": {
+    "detected": true,
+    "contained": true,
+    "filesPreservedPct": 100,
+    "mttdMs": 1,
+    "mttcMs": 47
+  },
+  "flagOff": {
+    "status": 200,
+    "isEvalApi": false
+  },
+  "flagOn": {
+    "status": 200,
+    "isEvalApi": true
+  }
+}

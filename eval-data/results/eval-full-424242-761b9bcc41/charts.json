@@ -1,0 +1,1426 @@
+{
+  "filesLostVsSpeed": [
+    {
+      "speed": "slow",
+      "detectorId": "D0",
+      "medianFilesLost": 12
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D0",
+      "medianFilesLost": 18
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D0",
+      "medianFilesLost": 20
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D1",
+      "medianFilesLost": 12
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D1",
+      "medianFilesLost": 18
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D1",
+      "medianFilesLost": 20
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D2",
+      "medianFilesLost": 12
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D2",
+      "medianFilesLost": 18
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D2",
+      "medianFilesLost": 20
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D3",
+      "medianFilesLost": 12
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D3",
+      "medianFilesLost": 18
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D3",
+      "medianFilesLost": 20
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D4",
+      "medianFilesLost": 12
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D4",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D4",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D5",
+      "medianFilesLost": 12
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D5",
+      "medianFilesLost": 18
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D5",
+      "medianFilesLost": 20
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D6",
+      "medianFilesLost": 12
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D6",
+      "medianFilesLost": 18
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D6",
+      "medianFilesLost": 20
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D7",
+      "medianFilesLost": 12
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D7",
+      "medianFilesLost": 18
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D7",
+      "medianFilesLost": 20
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D8",
+      "medianFilesLost": 12
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D8",
+      "medianFilesLost": 7
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D8",
+      "medianFilesLost": 4
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D9",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D9",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D9",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D9a",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D9a",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D9a",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D9b",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D9b",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D9b",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D9c",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D9c",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D9c",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D9d",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D9d",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D9d",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D9e",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D9e",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D9e",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "slow",
+      "detectorId": "D9f",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "medium",
+      "detectorId": "D9f",
+      "medianFilesLost": 1
+    },
+    {
+      "speed": "fast",
+      "detectorId": "D9f",
+      "medianFilesLost": 1
+    }
+  ],
+  "detectionVsPrincipals": [
+    {
+      "principals": 1,
+      "detectorId": "D0",
+      "detectionRate": 0,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D0",
+      "detectionRate": 0,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D0",
+      "detectionRate": 0,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D0",
+      "detectionRate": 0,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D1",
+      "detectionRate": 0,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D1",
+      "detectionRate": 0,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D1",
+      "detectionRate": 0,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D1",
+      "detectionRate": 0,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D2",
+      "detectionRate": 0.4642857142857143,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D2",
+      "detectionRate": 0.3333333333333333,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D2",
+      "detectionRate": 0.09090909090909091,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D2",
+      "detectionRate": 0,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D3",
+      "detectionRate": 0.7142857142857143,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D3",
+      "detectionRate": 0.6904761904761905,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D3",
+      "detectionRate": 0.5,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D3",
+      "detectionRate": 0.3,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D4",
+      "detectionRate": 0.6428571428571429,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D4",
+      "detectionRate": 0.6190476190476191,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D4",
+      "detectionRate": 0.5,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D4",
+      "detectionRate": 0.25,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D5",
+      "detectionRate": 0.14285714285714285,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D5",
+      "detectionRate": 0.09523809523809523,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D5",
+      "detectionRate": 0.09090909090909091,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D5",
+      "detectionRate": 0,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D6",
+      "detectionRate": 0.25,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D6",
+      "detectionRate": 0.23809523809523808,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D6",
+      "detectionRate": 0.09090909090909091,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D6",
+      "detectionRate": 0,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D7",
+      "detectionRate": 0.2857142857142857,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D7",
+      "detectionRate": 0.21428571428571427,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D7",
+      "detectionRate": 0.13636363636363635,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D7",
+      "detectionRate": 0.1,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D8",
+      "detectionRate": 0.6428571428571429,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D8",
+      "detectionRate": 0.6190476190476191,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D8",
+      "detectionRate": 0.5,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D8",
+      "detectionRate": 0.25,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D9",
+      "detectionRate": 1,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D9",
+      "detectionRate": 1,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D9",
+      "detectionRate": 1,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D9",
+      "detectionRate": 1,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D9a",
+      "detectionRate": 1,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D9a",
+      "detectionRate": 1,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D9a",
+      "detectionRate": 1,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D9a",
+      "detectionRate": 1,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D9b",
+      "detectionRate": 1,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D9b",
+      "detectionRate": 1,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D9b",
+      "detectionRate": 1,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D9b",
+      "detectionRate": 1,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D9c",
+      "detectionRate": 0.6428571428571429,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D9c",
+      "detectionRate": 0.6666666666666666,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D9c",
+      "detectionRate": 0.7272727272727273,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D9c",
+      "detectionRate": 0.9,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D9d",
+      "detectionRate": 1,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D9d",
+      "detectionRate": 1,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D9d",
+      "detectionRate": 1,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D9d",
+      "detectionRate": 1,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D9e",
+      "detectionRate": 1,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D9e",
+      "detectionRate": 1,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D9e",
+      "detectionRate": 1,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D9e",
+      "detectionRate": 1,
+      "traces": 20
+    },
+    {
+      "principals": 1,
+      "detectorId": "D9f",
+      "detectionRate": 1,
+      "traces": 28
+    },
+    {
+      "principals": 2,
+      "detectorId": "D9f",
+      "detectionRate": 1,
+      "traces": 42
+    },
+    {
+      "principals": 4,
+      "detectorId": "D9f",
+      "detectionRate": 1,
+      "traces": 22
+    },
+    {
+      "principals": 8,
+      "detectorId": "D9f",
+      "detectionRate": 1,
+      "traces": 20
+    }
+  ],
+  "detectionVsAttackToNoise": [
+    {
+      "ratio": 5,
+      "detectorId": "D0",
+      "detectionRate": 0,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D0",
+      "detectionRate": 0,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D0",
+      "detectionRate": 0,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D1",
+      "detectionRate": 0,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D1",
+      "detectionRate": 0,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D1",
+      "detectionRate": 0,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D2",
+      "detectionRate": 0.875,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D2",
+      "detectionRate": 0.6666666666666666,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D2",
+      "detectionRate": 0.7,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D3",
+      "detectionRate": 0.875,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D3",
+      "detectionRate": 0.6666666666666666,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D3",
+      "detectionRate": 0.4,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D4",
+      "detectionRate": 0.875,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D4",
+      "detectionRate": 0.6666666666666666,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D4",
+      "detectionRate": 0.7,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D5",
+      "detectionRate": 0.125,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D5",
+      "detectionRate": 0.08333333333333333,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D5",
+      "detectionRate": 0.2,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D6",
+      "detectionRate": 0.5,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D6",
+      "detectionRate": 0.3333333333333333,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D6",
+      "detectionRate": 0.3,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D7",
+      "detectionRate": 0.25,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D7",
+      "detectionRate": 0.16666666666666666,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D7",
+      "detectionRate": 0.2,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D8",
+      "detectionRate": 0.875,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D8",
+      "detectionRate": 0.6666666666666666,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D8",
+      "detectionRate": 0.7,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D9",
+      "detectionRate": 1,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D9",
+      "detectionRate": 1,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D9",
+      "detectionRate": 1,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D9a",
+      "detectionRate": 1,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D9a",
+      "detectionRate": 1,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D9a",
+      "detectionRate": 1,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D9b",
+      "detectionRate": 1,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D9b",
+      "detectionRate": 1,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D9b",
+      "detectionRate": 1,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D9c",
+      "detectionRate": 0.375,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D9c",
+      "detectionRate": 0.5,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D9c",
+      "detectionRate": 0.5,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D9d",
+      "detectionRate": 1,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D9d",
+      "detectionRate": 1,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D9d",
+      "detectionRate": 1,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D9e",
+      "detectionRate": 1,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D9e",
+      "detectionRate": 1,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D9e",
+      "detectionRate": 1,
+      "traces": 10
+    },
+    {
+      "ratio": 5,
+      "detectorId": "D9f",
+      "detectionRate": 1,
+      "traces": 8
+    },
+    {
+      "ratio": 20,
+      "detectorId": "D9f",
+      "detectionRate": 1,
+      "traces": 12
+    },
+    {
+      "ratio": 100,
+      "detectorId": "D9f",
+      "detectionRate": 1,
+      "traces": 10
+    }
+  ],
+  "fprVsThreshold": [
+    {
+      "detectorId": "D1",
+      "thresholdName": "intervalHours",
+      "threshold": 0.25,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D1",
+      "thresholdName": "intervalHours",
+      "threshold": 1,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D1",
+      "thresholdName": "intervalHours",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D1",
+      "thresholdName": "intervalHours",
+      "threshold": 12,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D1",
+      "thresholdName": "intervalHours",
+      "threshold": 24,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 3.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D2",
+      "thresholdName": "z",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 1,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.10416666666666667
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.10416666666666667
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.10416666666666667
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.10416666666666667
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 5,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.10416666666666667
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.10416666666666667
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.10416666666666667
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.10416666666666667
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D3",
+      "thresholdName": "batchMinutes",
+      "threshold": 15,
+      "falsePositiveRate": 0.08333333333333333
+    },
+    {
+      "detectorId": "D4",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D4",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D4",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.8,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D4",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.9,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D4",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.95,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D5",
+      "thresholdName": "entropyDeltaThreshold",
+      "threshold": 0.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D5",
+      "thresholdName": "entropyDeltaThreshold",
+      "threshold": 1,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D5",
+      "thresholdName": "entropyDeltaThreshold",
+      "threshold": 1.5,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D5",
+      "thresholdName": "entropyDeltaThreshold",
+      "threshold": 2,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D6",
+      "thresholdName": "extensions",
+      "threshold": 1,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D6",
+      "thresholdName": "extensions",
+      "threshold": 2,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D6",
+      "thresholdName": "extensions",
+      "threshold": 4,
+      "falsePositiveRate": 0
+    },
+    {
+      "detectorId": "D8",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7,
+      "falsePositiveRate": 0.3541666666666667
+    },
+    {
+      "detectorId": "D8",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.2,
+      "falsePositiveRate": 0.3541666666666667
+    },
+    {
+      "detectorId": "D8",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.4,
+      "falsePositiveRate": 0.3541666666666667
+    },
+    {
+      "detectorId": "D8",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.6,
+      "falsePositiveRate": 0.2708333333333333
+    },
+    {
+      "detectorId": "D8",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.8,
+      "falsePositiveRate": 0.25
+    },
+    {
+      "detectorId": "D8",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.9,
+      "falsePositiveRate": 0.22916666666666666
+    },
+    {
+      "detectorId": "D8",
+      "thresholdName": "entropyThreshold",
+      "threshold": 7.95,
+      "falsePositiveRate": 0
+    }
+  ]
+}
