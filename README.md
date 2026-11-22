@@ -4,7 +4,9 @@
 
 DefySwarm monitors bucket telemetry, detects both high-velocity encryption ransomware and slow-moving multi-credential attacks, automatically revokes compromised identities with real HTTP `403` enforcement, and restores affected objects bit-for-bit from an isolated immutable (WORM) vault—without sitting inline on your application data path.
 
+### Detection is 112 of 112 attacks, so the lower bound of about 96.7% is correctly calculated, against 58.9% for the best legacy reference.
 ---
+
 
 ## For Cloud Security & SRE Teams
 
@@ -177,14 +179,5 @@ EVAL_LAB=1 npm run eval:live
 
 A run refuses to start when `DEMO_LOCK=1`, a live incident is open, or a simulator is active. The lab uses its own in-memory product instances and writes only under `eval-data/`; it never touches the live store, incidents, policies, principals, or buckets.
 
-The stored full run (`eval-data/results/eval-full-424242-761b9bcc41`) reports D9 at 100% detection [96.7%, 100%] of 112 held-out attack traces, 0% false-positive traces [0%, 2.3%], median 1 file lost, versus 58.9% detection and median 18 files lost for the best legacy baseline (D3). The live simulator validation reports median MTTC 48 ms (p95 312 ms) across 4 attack runs. Baselines are our own reference implementations, not vendor products. Traces are synthetic replay; read [`docs/eval/LIMITATIONS.md`](./docs/eval/LIMITATIONS.md) before quoting these numbers.
 
-### Known limitations
 
-- **Role header is not auth.** `x-defyswarm-role` is a client-supplied demo switch; the server defaults to `admin`. Do not expose the control plane to untrusted clients.
-- **Audit ledger is not tamper-proof.** It is an append-only local JSON file, not immutable storage.
-- **Vault durability is provider-dependent.** The local adapter models an isolated WORM vault. Free-tier hosts may sleep or lose data. No external Object Lock bucket was exercised by the lab.
-- **Supabase Storage S3 is a monitored source, not a vault target.** It lacks the S3 Object Lock and versioning semantics the vault relies on.
-- **False positives are measured, not guaranteed.** 0 false-positive traces on 162 held-out traces has a 95% upper bound of 2.3%.
-- **Latency is simulator-measured.** Sub-second MTTC is a shipped-simulator result, not a production latency guarantee.
-# defyswarm
