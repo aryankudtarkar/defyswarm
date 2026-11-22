@@ -40,6 +40,14 @@
       "action": "Report detection separately from the attribution of the deciding signal."
     },
     {
+      "id": "swarm-correlation-deciding",
+      "claim": "Cross-principal swarm correlation is the deciding detection signal for multi-principal attacks.",
+      "verdict": "not-demonstrated",
+      "evidence": "Both live swarm runs were detected and contained, but incident.isSwarm was false in both: the product raised the incident through other signals before correlation was the deciding factor. The replay ablation D9d (swarm correlation disabled) also detected 100% of held-out attack traces.",
+      "source": "eval-data/live-validation.json; eval-data/results/eval-full-424242-761b9bcc41/results.json",
+      "action": "Do not claim the swarm-correlation component is load-bearing based on this run."
+    },
+    {
       "id": "adaptive-canaries",
       "claim": "Adaptive canaries materially improve detection.",
       "verdict": "not-demonstrated",
