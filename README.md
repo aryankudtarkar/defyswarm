@@ -187,3 +187,4 @@ The stored full run (`eval-data/results/eval-full-424242-761b9bcc41`) reports D9
 - **Supabase Storage S3 is a monitored source, not a vault target.** It lacks the S3 Object Lock and versioning semantics the vault relies on.
 - **False positives are measured, not guaranteed.** 0 false-positive traces on 162 held-out traces has a 95% upper bound of 2.3%.
 - **Latency is simulator-measured.** Sub-second MTTC is a shipped-simulator result, not a production latency guarantee.
+# defyswarm
